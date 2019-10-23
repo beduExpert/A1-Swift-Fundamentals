@@ -1,27 +1,39 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+`Desarrollo Mobile` > `Swift Fundamentals`
 
-## Titulo del Ejemplo
+## Práctica de *Hola Mundo* desde el storyboard.
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Al finalizar esta práctica el estudiante deberá saber como ejecutar una app en el simulador, como utilizar y configurar elementos de UI en el Storyboard.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Crear un proyecto en Xcode con Swift y Storyboard seleccionados.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+1.- Crea un proyecto en Xcode con las opciones como se muestran a continuación:
+
+![](1.png)
+
+2.- Abrir el Storyboard, y agregar un UILabel a la vista de ViewController.
+
+3.- Personalizar el label mediante el uso del Inspector.
+
+4.- Ejecutar la App en el simulador.
+
 
 <details>
-
         <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
+        <p> El UILabel es agregado mediante el botón de + ubicado en la esquina superior derecha, dicho botón de + es llamado Library </p>
+        <p>Al presionar el botón +, aparecerá un menú de componentes, buscar UILabel</p>
+        <p>Al tener UILabel, arrastarlo al View, con el cursor ajustar el tamaño y en el inspector agregar un texto y color.</p>
+         <p>Finalmente, ejecutar la App con el botón de Play. </p>
 </details>
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+El resultado debe ser parecido a la sig. imágen. Note que aparecen unas líneas azules, estas líneas ayudaran a especificar una posición al componente.
+
+![](2.png)
 
 
