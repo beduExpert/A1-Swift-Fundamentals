@@ -1,27 +1,32 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+`Desarrollo Mobile` > `Swift Fundamentals`
 
-## Titulo del Ejemplo
+## Navigation, flujo entre dos vistas
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Aprender como conectar dos vistas en el Storyboard y como ir de la vista raiz (root) a la segunda vista.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1.- Crea un proyecto en Xcode como **Single View App**, con las opciones como se muestran a continuación:
 
-#### DESARROLLO
+![](1.png)
 
-Agrega las instrucciones generales del ejemplo o reto
+2.- Abrir el Storyboard, y agregar un ViewController adicional.
 
-<details>
+![](2.gif)
 
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+3.- Al Primer ViewController agregar un UIButton.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+![](3.gif)
 
+4.- Conectar el UIButton como Push.
 
+![](4.gif)
+
+5.- Configurar el flujo como Navigation. Ir a menú `Editor > Embed In > Navigation Controller`
+
+![](5.gif)
+
+6.- Ejecutar la App.
