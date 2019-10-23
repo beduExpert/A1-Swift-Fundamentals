@@ -1,27 +1,32 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+`Desarrollo Mobile` > `Swift Fundamentals`
 
-## Titulo del Ejemplo
+## Agregando una segunda vista
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Ya se conoce como ir a una segunda vista mediante *Show* (push). Al finalizar este ejemplo se aprenderá una alternativa para mostrar vistas.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1.- Crea un proyecto en Xcode como **Single View App**, con las opciones como se muestran a continuación:
+
+![](0.png)
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+1.- Una vez creado el proyecto, ir a Storyboard.
 
-<details>
+2.- Dentro del Storyboard, agregar un nuevo ViewController con el botón **+** ubicado en la esquina superior derecha del editor.
 
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+![](1.png)
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+3.- Agregar un UIButton a la primera vista.
 
+![](2.png)
+ 
+4.- Conectar el UIButton con la segunda vista con **Present Modally**.
 
+![](3.gif)
+
+5.- Ejecutar la App.
