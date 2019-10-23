@@ -46,11 +46,11 @@ Ahora el botón de **DISMISS**.
 
 <p>3.- Agregar un botón de **dismiss** a alguna vista de detalle, puede ser en ambas.</p>
 
-<img src="2.png" alt="Solucion" width="320" height="260">
+<img src="2.png" alt="" width="320" height="260">
 
 <p>4.- Conectar el UIButton con cada vista agregada con **Present Modally**.</p>
 
-![](3.png)
+<img src="3.png" alt="" width="220" height="360">
 
 <p>5.- Al ejecutar la App deberiamos poder ocultar las vistas de detalle.</p>
 
@@ -60,11 +60,11 @@ Ahora el botón de **DISMISS**.
 
 `Click derecho` > `NewFile` > `Cocoa touch class` > `Subclass of UIViewController` > `Create`.
 
-![](4.gif)
+<img src="4.gif" alt="" width="520" height="300">
 
 <p>7.- Conectar este archivo *GreenViewController* con un ViewController del Storyboard.</p>
 
-![](5.png)
+<img src="5.png" alt="" width="640" height="360">
 
 <p>8.- Nos dirigimos al archivo *GreenViewController* y escribimos el siguiente código.</p>
 
@@ -73,16 +73,15 @@ Ahora el botón de **DISMISS**.
     dismiss(animated: true, completion: nil)
   }
 ```
-![](6.png)
-
+<img src="6.png" alt="" width="660" height="260">
 
 <p>9.- Regresamos al Storyboard, seleccionamos nuestra vista verde, y conectamos la acción con nuestro botón.</p>
 
-![](7.png)
+<img src="7.png" alt="" width="420" height="260">
 
 <p>10.- Saldrá un pop-menu, seleccionamos *TouchUp Inside*.</p>
 
-![](8.png)
+<img src="8.png" alt="" width="230" height="220">
 
 <p>11.- Ejecutar la App.</p>
 
