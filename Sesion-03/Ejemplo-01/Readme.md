@@ -26,14 +26,14 @@
 
 <details>
         <summary>Solucion</summary>
-        <p> El UILabel es agregado mediante el botón de + ubicado en la esquina superior derecha, dicho botón de + es llamado Library </p>
-        <p>Al presionar el botón +, aparecerá un menú de componentes, buscar UILabel</p>
+        <p> El UILabel es agregado mediante el botón de <strong>+</strong> ubicado en la esquina superior derecha, dicho botón es llamado <i>Library</i>. </p>
+        <p>Al presionar el botón <strong>+</strong>, aparecerá un menú de componentes, buscar UILabel</p>
         <p>Al tener UILabel, arrastarlo al View, con el cursor ajustar el tamaño y en el inspector agregar un texto y color.</p>
          <p>Finalmente, ejecutar la App con el botón de Play. </p>
+         <p> El resultado debe ser parecido a la sig. imágen. Note que aparecen unas líneas azules, estas líneas ayudaran a especificar una posición al componente.</p>
+         <img src="2.png" alt="Solucion" width="600"
+         height="411">
 </details>
 
-El resultado debe ser parecido a la sig. imágen. Note que aparecen unas líneas azules, estas líneas ayudaran a especificar una posición al componente.
-
-![](2.png)
 
 
