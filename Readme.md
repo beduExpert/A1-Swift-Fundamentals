@@ -7,8 +7,9 @@ En este módulo aprenderemos los fundamentos básicos del lenguaje de programaci
 
 Antes de comenzar deberás **descargar Xcode** en tu equipo.
 
-##### [Descargar Xcode desde el App Store](https://apps.apple.com/mx/app/xcode/id497799835?l=en&mt=12)
+#### [Descargar Xcode desde el App Store](https://apps.apple.com/mx/app/xcode/id497799835?l=en&mt=12)
 
+Mas información sobre iOS Development: [Developer Program](https://developer.apple.com/programs/)
 
 ### OBJETIVO 
 
