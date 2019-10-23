@@ -2,7 +2,6 @@
 //  AppDelegate.swift
 //  ModalViews
 //
-//  Created by Richie on 23/10/19.
 //  Copyright © 2019 Bedu. All rights reserved.
 //
 
