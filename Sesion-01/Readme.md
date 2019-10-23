@@ -2,11 +2,11 @@
 `Desarrollo Mobile` > `Swift Fundamentals`
 
 
-## Introducción al desarrollo Mobile (ambiente Macos y Swift)  
+## Introducción al desarrollo Mobile (ambiente Mac OS y Swift)  
 
 ### OBJETIVOS 
 
-- Utilizar el IDE de trabajo Xcode, las herramientas generales, instalación, configuración. 
+- Utilizar el IDE de trabajo Xcode, las herramientas generales, instalación y configuración. 
 
 #### ORGANIZACION DE LA CLASE 
 
@@ -16,6 +16,8 @@
  - Configuración de una App. Targets, Signing, Frameworks, Libraries, Deployment Info.
  
  - Archivos generales de un proyecto. ej. (Main.storyboard, Info.plist, xcdatamodeld, Assets, etc.)
+
+ 	- [Postwork](Postwork)
  
  - Qué son y para que se utilizan los Targets.
  Playgrounds y simuladores (iPhone, iPad, Apple Watch).
