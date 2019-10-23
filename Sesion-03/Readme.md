@@ -30,13 +30,10 @@
 
 - Personalización de vistas mediante el Inspector.
 
-	- [Ejemplo 04](Ejemplo-04)
-	- [Reto 04](Reto-04)
-
 - Constraints (Height, With, Margins) teoria y prática con - Preview del View en múltiples pantallas desde Storyboard.
 
-	- [Ejemplo 05](Ejemplo-05)
-	- [Reto 05](Reto-05)
+	- [Ejemplo 04](Ejemplo-04)
+	- [Reto 04](Reto-04)
 
 - Ejecución de App en multiples simuladores.
 
