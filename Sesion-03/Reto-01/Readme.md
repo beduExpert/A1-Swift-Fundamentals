@@ -1,27 +1,27 @@
- 
+`Desarrollo Mobile` > `Swift Fundamentals`
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## Aumenta tu Primera App 
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+- Personalizar mas elementos de UI e identificar sus opciones en el inspector
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. Proyecto de Hola Mundo terminado.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+1. Utilizar el proyecto de Hola Mundo.
+2. Agregar elementos del Library, se sugieren Sliders, Switch, TextFields.
+3. Personalizar estos componentes.
 
 <details>
-
 	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
+	<p> Con base en el proyecto de Hola Mundo, abrir el Storyboard </p>
+	<p> En el Storyboard, ir a **Library [ + ]** y arrastrar los elementos de UI que el alumno guste. </p>
+	<p> Con el uso del Inspector, personalizar estos componentes. </p>
 </details> 
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+ ![imagen](1.png)
 
