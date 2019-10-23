@@ -1,27 +1,32 @@
  
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
+`Desarrollo Mobile` > `Swift Fundamentals`
+ 
 	
-## Titulo del Ejemplo 
+## Personaliza tu App
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+- El alumno podra hacer la configuración inicial de una app. Debe agregar el icono adecuado en tamaño al proyecto.
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. Xcode instalado.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Crear un proyecto en Xcode, simple, sin UITests o UnitTests y sin CoreData con Swift como lenguaje predeterminado.
 
 <details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
+	<summary>Solución</summary>
+	<p> Se requiere una imágen PNG de 1024x1024, esta es la imágen principal para la App Store </p>
+	<p> Se necesita una imágen PNG para dispositivos pequeños conocidos como 2x de 120x120</p>
+	<p> Se necesita una imágen PNG para dispositivos grandes conocidos como 3x de 180x180</p>
+	<p> Estas imágnes se agregan dentro de Assets.xcassets dentro de AppIcon en iPhone App 60pt</p>
 </details> 
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
+### Secuencia de configuración
+![imagen](1.png)
+![imagen](2.png)
+![imagen](3.png)
+![imagen](4.png)
