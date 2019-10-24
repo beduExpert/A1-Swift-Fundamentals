@@ -37,12 +37,13 @@ Instalación de simuladores:
 
 - Personalización de vistas mediante el Inspector.
 
+	- [Ejemplo 04](Ejemplo-04)
 	- [PostWork](Postwork)
 
 - Constraints teoría y práctica con - Preview - del ViewController en múltiples pantallas desde Storyboard.
 
-	- [Ejemplo 04](Ejemplo-04)
 	- [Ejemplo 05](Ejemplo-05)
+	- [Ejemplo 06](Ejemplo-06)
 
 - Ejecución de App en multiples simuladores.
 

@@ -2,74 +2,46 @@
 `Desarrollo Mobile` > `Swift Fundamentals`
 
 
-## Constraints y Preview
+## Constraints
 
 
 ### OBJETIVO
 
-- Aprender a utilizar los criterios de alineamiento y dimensión de componentes de UI en el Storyboard. Aprender a utilizar el Preview del Storyboard.
+- Aprender a utilizar los criterios de alineamiento y dimensión de componentes de UI en el Storyboard.
 
 #### REQUISITOS
 
-1.- Utilizar el proyecto base del `Ejemplo-04`.
+1.- Crea un proyecto en Xcode como **Single View App**, con las opciones como se muestran a continuación:
+
+![](0.png)
 
 #### DESARROLLO
 
-##### Constraints de alineamiento
+1.- Una vez creado el proyecto, abrir el Storyboard.
 
-Alineando múltiples elementos de UI en un ViewController.
-
-1.- Agregaremos distintos elementos del library y los colocaremos al azar, como se muestra en la sig. imágen:
+2.- Dentro del storyboard, agregar un UILabel.
 
 ![](1.png)
 
-2.- Una vez agregados estos elementos, procedemos a alinearlos.
-Seleccionamos todos los elementos agregados, luego ubicamos el botón de *Aling* en la parte inferior. Seleccionamos **Horizontally in Container**.
+3.- Vamos a ajustar los constraints, seleccionar el UILabel y observar las opciones en la parte baja del editor.
+Tenemos  *Add new constraints*, que nos permitirá agregar constantes de dimensión, altura, ancho y distancias hacia otros elementos.
 
 ![](2.png)
 
-El resultado seria similar a este, note que aparecen líneas rojas de constraints no definidos:
+Agregaremos un valor de 10 en cada lado del UILabel, los agregamos con Add 2 Constraint, como se muestra:
 
-![](3.png)
+![](3-1.png)
 
-3.- Ahora, se agregarán dos constraints de alineamiento, tanto para la izquierda *Leading* como la derecha *Trailing*. Seleccionamos ambas opciones y damos click en Add.
+Vemos que el Label cambia de anchura, pero se muestran unas líneas rojas. Esto indica que **faltan** valores por agregar. 
 
-![](4.png)
+Es importante corregirlos ya que si aparecen lineas rojas nuestra app tendra errores al ejecutarse.
 
-Vemos que se expandieron los elementos, ahora todos estan alineados. Pero aun aparecen constraints no definidos. Estos son espacios y alturas entre componentes. 
-
-![](5.png)
-
-4.- Resolveremos los constraints no definidos como se realizó en el Ejemplo-04, dando click en Add missing constraints.
-
-![](6.png)
-
-¡Finalmente!
-
-![](7.png)
+![](3-2.png)
 
 
-##### Preview en distintas pantallas
+Corregiremos este *error de constraints* dando click en el UILabel, luego ubicar un pequeño círculo rojo en el panel izquierdo.
 
-Ya teniendo una vista con Constraints configurados, se debe asegurar que se visualizan correctamente en el dispositivo.
+![](4.gif)
 
-1.- Procedemos a activar la vista de Preview. Esta vista nos permitirá Previsualizar los componentes en la pantalla de algún dispositivo iOS.
 
-Dentro del Storyboard, ubicamos el sig. botón y seleccionamos **Preview**.
-
-![](8.png)
-
-2.- Aparecerá una pantalla parecida a la de edición. Pero en la parte inferior se muestra el Dispositivo al que pertenece dicha vista de previsualización.
-
-![](9.png)
-
-3.- Al dar click en el botón **+** del lado de *Preview*, se pueden agregar mas pantallas. Agregue pantallas a gusto personal.
-
-![](10.png)
-
-4.- Igualmente es permitido cambiar la orientación de la pantalla a *Landscape*.
-
-![](11.png)
-
-Gracias a Preview podemos asegurarnos que nuestros componentes son visibles en pantalla.
 

@@ -2,46 +2,32 @@
 `Desarrollo Mobile` > `Swift Fundamentals`
 
 
-## Constraints
-
+## Personalización de Vistas
 
 ### OBJETIVO
 
-- Aprender a utilizar los criterios de alineamiento y dimensión de componentes de UI en el Storyboard.
-
-#### REQUISITOS
-
-1.- Crea un proyecto en Xcode como **Single View App**, con las opciones como se muestran a continuación:
-
-![](0.png)
+- Familizarizarse con los objetos de UIKit y el Inspector de Storyboard.
 
 #### DESARROLLO
 
-1.- Una vez creado el proyecto, abrir el Storyboard.
+1.- Crear un nuevo proyecto `Single View App` en Xcode, con Swift y Storyboard.
 
-2.- Dentro del storyboard, agregar un UILabel.
+Nos dirigimos al Storyboard y vemos una pantalla similar a esta:
 
-![](1.png)
+<img src="3.png" alt="Solucion" width="630" height="380">
 
-3.- Vamos a ajustar los constraints, seleccionar el UILabel y observar las opciones en la parte baja del editor.
-Tenemos  *Add new constraints*, que nos permitirá agregar constantes de dimensión, altura, ancho y distancias hacia otros elementos.
+En la esquina superior derecha, selecionamos el botón de Library **+**. Con él podemos elegir elementos de UI, buscaremos `Label` y lo arrastraremos a la pantalla.
 
-![](2.png)
+<img src="2.png" alt="Solucion" width="380" height="380">
 
-Agregaremos un valor de 10 en cada lado del UILabel, los agregamos con Add 2 Constraint, como se muestra:
+<img src="4.png" alt="Solucion" width="630" height="380">
 
-![](3-1.png)
+En la misma esquina derecha, observamos los botones de *Panels*.
 
-Vemos que el Label cambia de anchura, pero se muestran unas líneas rojas. Esto indica que **faltan** valores por agregar. 
+El primer panel es el Navigator en donde tenemos nuestros archivos de Swift. El panel del centro es el Debugger en donde podemos ver nuestra consola de Xcode y en el panel de la derecha tenemos el Inspector.
 
-Es importante corregirlos ya que si aparecen lineas rojas nuestra app tendra errores al ejecutarse.
+<img src="5.png" alt="Solucion" width="520" height="150">
 
-![](3-2.png)
+Ahora, teniendo el Label en pantalla y el Inspector, buscamos la opcion *Attributes Inspector*. Dentro de esta opción podemos cambiar el Texto, Color, Tipo de Letra, Alineación del Texto, etc.
 
-
-Corregiremos este *error de constraints* dando click en el UILabel, luego ubicar un pequeño círculo rojo en el panel izquierdo.
-
-![](4.gif)
-
-
-
+<img src="6.png" alt="Solucion" width="530" height="305">
