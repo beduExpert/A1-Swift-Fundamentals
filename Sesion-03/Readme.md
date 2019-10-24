@@ -9,9 +9,9 @@
 
 ### Prework 
  
-Instalación de simuladores:
+Lectura, que es un Storyboard.
  
-- [Prework](Prework)
+- [Introducción a los Storyboards](https://www.efectoapple.com/introduccion-los-storyboards-parte-1/)
  
 
 #### ORGANIZACION DE LA CLASE 

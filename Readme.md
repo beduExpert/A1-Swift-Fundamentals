@@ -13,11 +13,6 @@ Primero deberás **descargar Xcode** en tu equipo. Solo abre el link y da click 
 
 ![](1.png)
 
-Adicionalmente puedes instalar los simuladores: 
-
-[Instalación Simuladores](https://github.com/beduExpert/A1-Swift-Fundamentals/tree/master/Sesion-03/Prework)
-
-
 ### OBJETIVO 
 
  - El alumno desarrollará con Swift aplicaciones para iOS altamente optimizadas, ágiles, veloces, interactivas y funcionales. Aprender los fundamentos del lenguaje Swift y del entorno iOS.
