@@ -18,13 +18,13 @@ Podremos elegir entre los siguientes simuladores:
 - tvOS: Apple TV
 
 
-![](1.PNG)
+![](1.png)
 
 Aparecerá una ventana de configuración de Xcode, dirigirse a *Components*.
 Dentro de esta vista, tenemos los simuladores descargados con una flecha azul y los No descargados con una flecha apuntando hacia abajo en gris.
 
-![](2.PNG)
+![](2.png)
 
 Al dar click sobre esta flecha gris, se comenzará a descargar e instalar el simulador.
 
-![](3.PNG)
+![](3.png)
