@@ -10,6 +10,8 @@
 
 #### ORGANIZACION DE LA CLASE 
 
+ - Generalidades de tener una cuenta como Desarrollador de Apple.
+
  - Ambiente Xcode, Instalación.
  Generalidades de Navigator Area, Debugger and Inspector.
  
@@ -26,6 +28,4 @@
 
  - Limitaciones de los simuladores.
   
- - Generalidades de tener una cuenta como Desarrollador de Apple.
- 
  - Herramientas disponibles siendo un desarrollador de Apple.
