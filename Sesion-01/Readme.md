@@ -10,7 +10,7 @@
 
 #### ORGANIZACION DE LA CLASE 
 
- - Generalidades de tener una cuenta como Desarrollador de Apple.
+ - Generalidades de tener una cuenta como [Desarrollador de Apple](https://medium.com/doapps/crear-tu-cuenta-de-desarrollador-en-la-app-store-19776a157052).
 
  - Ambiente Xcode, Instalación,
  Generalidades de Navigator Area, Debugger and Inspector.
