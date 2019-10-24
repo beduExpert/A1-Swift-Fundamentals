@@ -39,10 +39,10 @@ Instalación de simuladores:
 
 	- [PostWork](Postwork)
 
-- Constraints (Height, With, Margins) teoría y práctica con - Preview - del View en múltiples pantallas desde Storyboard.
+- Constraints teoría y práctica con - Preview - del ViewController en múltiples pantallas desde Storyboard.
 
 	- [Ejemplo 04](Ejemplo-04)
-	- [Reto 04](Reto-04)
+	- [Ejemplo 05](Ejemplo-05)
 
 - Ejecución de App en multiples simuladores.
 
