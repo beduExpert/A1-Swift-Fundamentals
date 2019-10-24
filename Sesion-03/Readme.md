@@ -20,6 +20,10 @@ Instalación de simuladores:
 
 - Propiedades de cada componente en el Inspector, personalización.
 
+- Personalización de vistas mediante el Inspector.
+
+	- [PostWork](Postwork)
+
 - Práctica de *Hola Mundo* desde el Storyboard.
 
  	- [Ejemplo 01](Ejemplo-01)
@@ -34,10 +38,6 @@ Instalación de simuladores:
 
 	- [Ejemplo 03](Ejemplo-03)
 	- [Reto 03](Reto-03)
-
-- Personalización de vistas mediante el Inspector.
-
-	- [PostWork](Postwork)
 
 - Constraints teoría y práctica con - Preview - del ViewController en múltiples pantallas desde Storyboard.
 
