@@ -20,7 +20,7 @@ Instalación de simuladores:
 
 - Propiedades de cada componente en el Inspector, personalización.
 
-- Práctica de *Hola Mundo* desde el storyboard.
+- Práctica de *Hola Mundo* desde el Storyboard.
 
  	- [Ejemplo 01](Ejemplo-01)
 	- [Reto 01](Reto-01)
@@ -39,7 +39,7 @@ Instalación de simuladores:
 
 	- [PostWork](Postwork)
 
-- Constraints (Height, With, Margins) teoria y prática con - Preview del View en múltiples pantallas desde Storyboard.
+- Constraints (Height, With, Margins) teoría y práctica con - Preview - del View en múltiples pantallas desde Storyboard.
 
 	- [Ejemplo 04](Ejemplo-04)
 	- [Reto 04](Reto-04)
