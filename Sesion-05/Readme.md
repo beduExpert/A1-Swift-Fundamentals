@@ -10,18 +10,8 @@
 
 #### REQUISITOS
 
-1. Haber leido la teoria de la Sesión 4 acerca de Tipos de Datos.
+1. Haber leido la teoria de la [Sesión 4](../Sesion-04) acerca de *Tipos de Datos*.
 2. Tener Xcode instalado, se utilizarán los **Playgrounds** para el desarrollo de esta sesión.
-
-##### REFERENCIAS
-
-[The Basics](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
-
-[Basic Operations](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html)
-
-[Strings and Characters](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html)
-
-[Collection Types](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)
 
 
 ### ORGANIZACION DE LA CLASE 
@@ -55,6 +45,18 @@
 ### Postwork:
 
 - [Investigación](Postwork)
+
+
+
+### REFERENCIAS
+
+[The Basics](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
+
+[Basic Operations](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html)
+
+[Strings and Characters](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html)
+
+[Collection Types](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)
 
 
 

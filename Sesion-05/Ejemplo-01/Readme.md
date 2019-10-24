@@ -48,9 +48,39 @@ O especificando el tipo de dato:
 > let pi: Float = 3.1416
 
 
+2.- Ahora en el Playground ingresaremos ambos ejemplos y veremos el resultado. En adición a esto, utilizaremos una función llamada `print()` la cuál nos permitirá mostrar el valor de una variable o constante en la zona de la consola o debug area.
+
+El código a utilizar en el playground es:
+
+```
+import UIKit
+
+var miVariable: Int = 5
+let pi: Float = 3.1416
+
+print(miVariable)
+print(pi)
+
+```
+
+![](4.png)
+
+3.- Es momento de realizar algunas operaciones básicas, haremos una suma, resta, multiplicación y división.
+
+```
+let radio: Float = 40.0
+let lado = 10
+let base = 20
+let altura = 30
+var perimetroCuadrado = lado + lado + lado + lado
+var areaCirculo = pi * radio * radio
+var areaTriangulo = (base * altura)/2
+```
+
+
 #### Ultimo pero no menos importante
 
-Al no especificar el tipo de dato Swift necesita "adivinar" o inferir que tipo de dato se esta usando, por ello si se desea crear un proyecto con buen código es mejor especificar el tipo de dato.
+Al no especificar el tipo de dato Swift necesita "sugerir" o formalmente dicho *inferir* que tipo de dato se esta usando, por ello si se desea crear un proyecto con buen código es mejor especificar el tipo de dato.
 
 
 
