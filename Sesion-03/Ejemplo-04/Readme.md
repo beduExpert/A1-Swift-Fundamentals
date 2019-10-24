@@ -2,12 +2,12 @@
 `Desarrollo Mobile` > `Swift Fundamentals`
 
 
-## Constraints y Preview
+## Constraints
 
 
 ### OBJETIVO
 
-- Aprender a utilizar los criterios de alineamiento y dimensión de componentes de UI en el Storyboard. También a previsualizar dichos componentes en pantallas de distintos dispositivos iOS.
+- Aprender a utilizar los criterios de alineamiento y dimensión de componentes de UI en el Storyboard.
 
 #### REQUISITOS
 
