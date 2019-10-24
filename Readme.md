@@ -9,7 +9,9 @@ En este módulo aprenderemos los fundamentos básicos del lenguaje de programaci
 
 Primero deberás **descargar Xcode** en tu equipo. Solo abre el link y da click en descargar.
 
-#### [Descargar Xcode desde el App Store](https://apps.apple.com/mx/app/xcode/id497799835?l=en&mt=12)
+### [Descargar Xcode desde el App Store](https://apps.apple.com/mx/app/xcode/id497799835?l=en&mt=12)
+
+![](1.png)
 
 Adicionalmente puedes instalar los simuladores: 
 
@@ -31,6 +33,7 @@ Adicionalmente puedes instalar los simuladores:
  - [Sesión 6](https://github.com/beduExpert/A1-Swift-Fundamentals/tree/master/Sesion-06): Operadores (asignación, aritmético, incremento y decremento, compuestos, comparación, rango y lógicos)
  - [Sesión 7](https://github.com/beduExpert/A1-Swift-Fundamentals/tree/master/Sesion-07): Control de flujos
  - [Sesión 8](https://github.com/beduExpert/A1-Swift-Fundamentals/tree/master/Sesion-08): Integración básica (MVC, IBO, IBA) 
+
 
 
 #### Mas información sobre iOS Development: 
