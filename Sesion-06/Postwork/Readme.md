@@ -1,27 +1,28 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+`Desarrollo Mobile` > `Swift Fundamentals`
 
-## Titulo del Ejemplo
+## Calculadora simple en Swift
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Con lo aprendido hasta el momento, crear una calculadora utilizando UILabel, UIButton y UITextField.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Basarse en el proyecto `Calculator-Starter`.
+2. Apoyarse del [Reto-04](https://github.com/beduExpert/A1-Swift-Fundamentals/tree/master/Sesion-03/Reto-04) para los IBActions.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+1.- Crear un layout de calculadora parecido a este:
 
-<details>
+![](1.gif)
 
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+2.- Se deberan poder hacer calculos ingresando dos números.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+3.- Las operaciones esperadas son suma, resta, multiplicación y división.
 
+4.- El resultado final debe mostrarse en un Label.
+
+5.- En caso de dividir entre 0, mostrar msj. de error en el Label.
 

@@ -1,16 +1,41 @@
 `Desarrollo Mobile` > `Swift Fundamentals`
 
 
-## Titulo de la Sesion 
+## Operadores 
+### Asignación, aritmético, incremento, decremento, compuestos, comparación, rango y lógicos.
 
 ### OBJETIVOS 
 
-- Lo que esperamos que el alumno aprenda al finalizar la sesion 
+- Aprender la lógica de programación, enfocandonos en la parte aritmética, lógica, de comparación y asignación.
 
 #### ORGANIZACION DE LA CLASE 
 
-- Tema que veran en el ejemplo
+- Operadores de asignación.
 
 	- [Ejemplo 01](Ejemplo-01)
 	- [Reto 01](Reto-01)
 
+- Incrementos y Decrementos.
+
+	- [Ejemplo 02](Ejemplo-02)
+	- [Reto 02](Reto-02)
+
+- Lógica Booleana y compuertas.
+
+	- [Ejemplo 03](Ejemplo-03)
+	- [Reto 03](Reto-03)
+	
+- Conversión de tipo de datos, ej. (Double a Int, etc.)
+
+	- [Ejemplo 04](Ejemplo-04)
+	- [Reto 04](Reto-04)
+
+- Estructuras de Control, IF, Switch-Case.
+
+	- [Ejemplo 05](Ejemplo-05)
+	- [Reto 05](Reto-05)
+
+
+### Postwork
+
+- [Crear una App Calculadora](Postwork)
