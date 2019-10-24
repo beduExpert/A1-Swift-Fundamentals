@@ -1,39 +1,33 @@
 
 `Desarrollo Mobile` > `Swift Fundamentals`
 
-## Práctica de *Hola Mundo* desde el storyboard.
+
+## Personalización de Vistas mediante el Inspector
 
 ### OBJETIVO
 
-- Al finalizar esta práctica el estudiante deberá saber como ejecutar una app en el simulador, como utilizar y configurar elementos de UI en el Storyboard.
-
-#### REQUISITOS
-
-1. Crear un proyecto en Xcode con Swift y Storyboard seleccionados.
+- Familizarizarse con los objetos de UIKit y el Inspector de Storyboard.
 
 #### DESARROLLO
 
-1.- Crea un proyecto en Xcode con las opciones como se muestran a continuación:
+1.- Crear un nuevo proyecto `Single View App` en Xcode, con Swift y Storyboard.
 
-![](1.png)
+Nos dirigimos al Storyboard y vemos una pantalla similar a esta:
 
-2.- Abrir el Storyboard, y agregar un UILabel a la vista de ViewController.
+<img src="3.png" alt="Solucion" width="630" height="380">
 
-3.- Personalizar el label mediante el uso del Inspector.
+En la esquina superior derecha, selecionamos el botón de Library **+**. Con él podemos elegir elementos de UI, buscaremos `Label` y lo arrastraremos a la pantalla.
 
-4.- Ejecutar la App en el simulador.
+<img src="2.png" alt="Solucion" width="380" height="380">
 
+<img src="4.png" alt="Solucion" width="630" height="380">
 
-<details>
-        <summary>Solucion</summary>
-        <p> El UILabel es agregado mediante el botón de <strong>+</strong> ubicado en la esquina superior derecha, dicho botón es llamado <i>Library</i>. </p>
-        <p>Al presionar el botón <strong>+</strong>, aparecerá un menú de componentes, buscar UILabel</p>
-        <p>Al tener UILabel, arrastarlo al View, con el cursor ajustar el tamaño y en el inspector agregar un texto y color.</p>
-         <p>Finalmente, ejecutar la App con el botón de Play. </p>
-         <p> El resultado debe ser parecido a la sig. imágen. Note que aparecen unas líneas azules, estas líneas ayudaran a especificar una posición al componente.</p>
-         <img src="2.png" alt="Solucion" width="600"
-         height="411">
-</details>
+En la misma esquina derecha, observamos los botones de *Panels*.
 
+El primer panel es el Navigator en donde tenemos nuestros archivos de Swift. El panel del centro es el Debugger en donde podemos ver nuestra consola de Xcode y en el panel de la derecha tenemos el Inspector.
 
+<img src="5.png" alt="Solucion" width="520" height="150">
 
+Ahora, teniendo el Label en pantalla y el Inspector, buscamos la opcion *Attributes Inspector*. Dentro de esta opción podemos cambiar el Texto, Color, Tipo de Letra, Alineación del Texto, etc.
+
+<img src="6.png" alt="Solucion" width="530" height="305">

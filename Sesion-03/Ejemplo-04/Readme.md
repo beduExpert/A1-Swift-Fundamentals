@@ -1,33 +1,32 @@
 
 `Desarrollo Mobile` > `Swift Fundamentals`
 
-
-## Personalización de Vistas
+## Agregando una segunda vista
 
 ### OBJETIVO
 
-- Familizarizarse con los objetos de UIKit y el Inspector de Storyboard.
+- Ya se conoce como ir a una segunda vista mediante *Show* (push). Al finalizar este ejemplo se aprenderá una alternativa para mostrar vistas.
+
+#### REQUISITOS
+
+1.- Crea un proyecto en Xcode como **Single View App**, con las opciones como se muestran a continuación:
+
+![](0.png)
 
 #### DESARROLLO
 
-1.- Crear un nuevo proyecto `Single View App` en Xcode, con Swift y Storyboard.
+1.- Una vez creado el proyecto, ir a Storyboard.
 
-Nos dirigimos al Storyboard y vemos una pantalla similar a esta:
+2.- Dentro del Storyboard, agregar un nuevo ViewController con el botón **+** ubicado en la esquina superior derecha del editor.
 
-<img src="3.png" alt="Solucion" width="630" height="380">
+![](1.png)
 
-En la esquina superior derecha, selecionamos el botón de Library **+**. Con él podemos elegir elementos de UI, buscaremos `Label` y lo arrastraremos a la pantalla.
+3.- Agregar un UIButton a la primera vista.
 
-<img src="2.png" alt="Solucion" width="380" height="380">
+![](2.png)
+ 
+4.- Conectar el UIButton con la segunda vista con **Present Modally**.
 
-<img src="4.png" alt="Solucion" width="630" height="380">
+![](3.gif)
 
-En la misma esquina derecha, observamos los botones de *Panels*.
-
-El primer panel es el Navigator en donde tenemos nuestros archivos de Swift. El panel del centro es el Debugger en donde podemos ver nuestra consola de Xcode y en el panel de la derecha tenemos el Inspector.
-
-<img src="5.png" alt="Solucion" width="520" height="150">
-
-Ahora, teniendo el Label en pantalla y el Inspector, buscamos la opcion *Attributes Inspector*. Dentro de esta opción podemos cambiar el Texto, Color, Tipo de Letra, Alineación del Texto, etc.
-
-<img src="6.png" alt="Solucion" width="530" height="305">
+5.- Ejecutar la App.

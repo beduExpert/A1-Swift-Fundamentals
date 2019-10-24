@@ -22,27 +22,22 @@ Instalación de simuladores:
 
 - Personalización de vistas mediante el Inspector.
 
-	- [PostWork](Postwork)
+	- [Ejemplo 01](Ejemplo-01)
 
 - Práctica de *Hola Mundo* desde el Storyboard.
 
- 	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
-
-- Flujo básico de vista-detalle con navigation desde Storyboard (UILabels, UIButtons, NavigationBar, Push).
-
-	- [Ejemplo 02](Ejemplo-02)
+ 	- [Ejemplo 02](Ejemplo-02)
 	- [Reto 02](Reto-02)
 
-- Storyboard, agregar mas de una segunda vista al flujo.
+- Flujo básico de vista-detalle con navigation desde Storyboard (UILabels, UIButtons, NavigationBar, Push).
 
 	- [Ejemplo 03](Ejemplo-03)
 	- [Reto 03](Reto-03)
 
-- Personalización de vistas mediante el Inspector.
+- Storyboard, agregar mas de una segunda vista al flujo.
 
 	- [Ejemplo 04](Ejemplo-04)
-	- [PostWork](Postwork)
+	- [Reto 04](Reto-04)
 
 - Constraints teoría y práctica con - Preview - del ViewController en múltiples pantallas desde Storyboard.
 
@@ -52,3 +47,8 @@ Instalación de simuladores:
 - Ejecución de App en multiples simuladores.
 
 - Que son los XIBs, conceptos.
+
+
+### Postwork
+
+- [PostWork](Postwork)
