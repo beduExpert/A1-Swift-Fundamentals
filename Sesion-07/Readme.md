@@ -2,7 +2,7 @@
 `Desarrollo Mobile` > `Swift Fundamentals`
 
 
-## Titulo de la Sesion 
+## Control de flujos 
 
 ### OBJETIVOS 
 
@@ -10,8 +10,12 @@
 
 #### ORGANIZACION DE LA CLASE 
 
-- Tema que veran en el ejemplo
+- Estructuras de Control de flujo, For, For each, While, Repeat-while.
 
 	- [Ejemplo 01](Ejemplo-01)
 	- [Reto 01](Reto-01)
 
+- Operadores, asignación, incremento, comparación, compuertas lógicas.
+
+	- [Ejemplo 01](Ejemplo-01)
+	- [Reto 01](Reto-01)
