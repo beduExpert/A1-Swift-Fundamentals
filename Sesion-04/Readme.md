@@ -18,8 +18,6 @@ Antes de comenzar es prudente acercarse a una lectura previa de los temas que se
 
 #### Prework, lectura: 
 
-[Swift The Basics](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
-
 [Aprende Los Conceptos Básicos Del Lenguaje De Programación - Likegeeks](https://likegeeks.com/es/tutorial-swift-de-ios/)
 
 
@@ -53,3 +51,9 @@ Antes de comenzar es prudente acercarse a una lectura previa de los temas que se
 	- [Basic Operators - Apple](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html)
 	- [Operaciones Matemáticas - Likegeeks.com](https://likegeeks.com/es/tutorial-swift-de-ios/#Operaciones-matemaacuteticas)
 	- [Operaciones de Comparación - Likegeeks.com](https://likegeeks.com/es/tutorial-swift-de-ios/#Operadores-de-comparacioacuten)
+
+
+#### Terminaste los temas?, consulta la documentación oficial:
+
+[Swift The Basics](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
+
