@@ -12,7 +12,7 @@
 
  - Generalidades de tener una cuenta como Desarrollador de Apple.
 
- - Ambiente Xcode, Instalación.
+ - Ambiente Xcode, Instalación,
  Generalidades de Navigator Area, Debugger and Inspector.
  
  - Configuración de una App. Targets, Signing, Frameworks, Libraries, Deployment Info.
@@ -21,7 +21,7 @@
 
  	- [Postwork](Postwork)
  
- - Qué son y para que se utilizan los Targets.
+ - ¿Qué son y para qué se utilizan los Targets?
  Playgrounds y simuladores (iPhone, iPad, Apple Watch).
  
   	- [Reto 01](Reto-01)
