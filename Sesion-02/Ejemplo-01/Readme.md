@@ -1,27 +1,39 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+`Desarrollo Mobile` > `Swift Fundamentals`
 
-## Titulo del Ejemplo
+## Simulador y sus limitaciones
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Aprender el uso básico del simulador y entender las limitaciones del mismo.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Lo necesario tener algún simulador iOS instalado.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Dirigirse al Menú de Apps y buscar la `Terminal`.
+Ejecutar el siguiente comando:
 
-<details>
+> open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/
 
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+Este comando abrirá un simulador.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+Ahora bien, probar las diferentes opciones del simulador en el Menú de Hardware.
+
+![](1.gif)
+
+![](2.gif)
+
+Con el uso de la terminal es posible utilizar el simulador.
+Abrimos la `Terminal` de macOS y tecleamos lo siguiente:
+
+> xcrun simctl openurl booted https://bedu.mx
+
+![](3.gif)
 
 
+##### Si quieres saber mas sobre el simulador:
+
+[iOS Simulator Command Line](https://medium.com/@ankitkumargupta/ios-simulator-command-line-tricks-ee58054d30f4)

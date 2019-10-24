@@ -1,16 +1,27 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
+`Desarrollo Mobile` > `Swift Fundamentals`
 
-## Titulo de la Sesion 
+## Swift tools (Xcode, Playgrounds y simulador Iphone)
 
 ### OBJETIVOS 
 
-- Lo que esperamos que el alumno aprenda al finalizar la sesion 
+- Aprenderán las partes principales de Xcode. Utilizar los simuladores de iphone.
+
+
+### Antes de comenzar...
+
+Asegurate de tener instalado el simulador de iOS.
+
 
 #### ORGANIZACION DE LA CLASE 
 
-- Tema que veran en el ejemplo
+ - ¿Qué son y para qué se utilizan los Targets?
+ Playgrounds y simuladores (iPhone, iPad, Apple Watch).
+ 
+  	- [Reto 01](Reto-01)
 
-	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
+ - Simulador y sus limitaciones.
 
+ 	- [Ejemplo 01](Ejemplo-01)
+  
+ - Herramientas disponibles siendo un desarrollador de Apple.
