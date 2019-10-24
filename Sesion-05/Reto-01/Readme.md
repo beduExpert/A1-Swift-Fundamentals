@@ -1,27 +1,24 @@
  
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
+`Desarrollo Mobile` > `Swift Fundamentals`
 	
-## Titulo del Ejemplo 
+## Investigación sobre Variables 
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+- Aprender en que consiste `Type Inference` en Swift.
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. Haber concluido el Ejemplo 01 de esta sesión.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Investigar que es Inferencia de Tipo o `Type Inference` en Swift.
 
 <details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
+        <summary>Solucion</summary>
+         <p></p>
+        <a href="https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID322">Type Inference Apple</a>
+        <p></p>
+        <a href="https://stackoverflow.com/questions/37707403/what-is-the-difference-between-type-safety-and-type-inference">Type Inference Stackoverflow</a>
+</details>

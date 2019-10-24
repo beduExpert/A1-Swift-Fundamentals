@@ -1,11 +1,3 @@
-import UIKit
-/*
- The UIKit framework provides the required infrastructure for your iOS or tvOS apps.
- It provides the window and view architecture for implementing your interface, the event handling infrastructure for delivering Multitouch
- and other types of input to your app, and the main run loop needed to manage interactions among the user, the system, and your app. Other
- features offered by the framework include animation support, document support, drawing and printing support, information about the current
- device, text management and display, search support, accessibility support, app extension support, and resource management.
- */
 
 //*----------------------| SWIFT BASICS |----------------------*//
 
@@ -13,12 +5,12 @@ let bedu = "Bedu"
 print(bedu)
 
 //-----------> CONSTANTS <-----------//
-let myConstant:Int = 10
-let pi:Double = 3.1416
+let myConstant: Int = 10
+let pi: Double = 3.1416
 
 //-----------> VARIABLES <-----------//
 var myMoney = 1_300_999
-var 😆:String = "jajajaja"
+var 😆: String = "jajajaja"
 var variable: Int = 20
 
 var myVariable: Int
@@ -28,11 +20,11 @@ myVariable = 10
 // Int is represented with 64 bits or 32 bits, depending on the system.
 // But you can use Int8, Int16, Int32, Int64 to consume 1,2,4 and 8 bytes of storage respectively.
 // Each of these types use 1-bit to represent the sign.
-var myInt8:Int8 = 127 // from -128 to 127 (max value).
-var myInt8Unsigned:UInt8 = 127 // just positive values from 0 to 255 (max value).
-var myInt16:Int16 = 32767
-var myInt32:Int32
-var myInt64:Int64
+var myInt8: Int8 = 127 // from -128 to 127 (max value).
+var myInt8Unsigned: UInt8 = 127 // just positive values from 0 to 255 (max value).
+var myInt16: Int16 = 32767
+var myInt32: Int32
+var myInt64: Int64
 
 
 //-----------> INCREMENT/DECREMENT <-----------//
@@ -61,10 +53,10 @@ var five = "5.1"
 var fiveToInt = Int(five)
 var fiveToDecimal = Double(five)
 
-let number1:Int = 16
-let number2:Int = 30
+let number1: Int = 16
+let number2: Int = 30
 //ERROR: let time:Double = number1 + number2, Double(...) it's mandatory
-let total:Double = Double(number1 + number2)
+let total: Double = Double(number1 + number2)
 
 //"TYPE INFERENCE", it means it's not necessary to declare the Data Type.
 let myInferenceVar = 3.1416
@@ -136,90 +128,3 @@ print(c)
 //If you want to ignore a value in a tuple, just use underscore _
 let (aa,bb,_) = coordinates3D
 
-
-//-----------> CONTROL FLOW <-----------//
-let yes: Bool = true
-let no: Bool = false
-
-let areBothTheSame = (yes == no) //false
-let areBothDifferent = (yes != no) //true
-let areBothDifferent2 = !(yes == no) //true
-
-let alsoTrue = !(1 == 2) //true
-let isOneGreaterThanTwo = (1 > 2) //false
-
-//GATES
-let AND = true && true //true, just if both of them are true
-let AND2 = true && false //false
-
-let OR = true || false // true, if one is true, the result is true otherwise is false
-let OR2 = true || true // true
-let OR3 = false || false // false
-
-let andTrue = 1 < 2 && 4 > 3 // true && true equals true
-let andFalse = 1 < 2 && 3 > 4
-
-let andOr = (1 < 2 && 3 > 4) || 1 < 4 // (true and false) -> false, (false OR true) -> true
-let order = "cat" < "dog" //check alphabetically
-
-//-----------> TERNARY CONDITIONAL OPERATOR <-----------//
-let alfa = 5
-let beta = 10
-let min = alfa < beta ? alfa : beta
-let max = alfa > beta ? alfa : beta
-
-
-//-----------> SWITCH STATEMENTS <-----------//
-let number = 10
-switch number {
-case 0:
-    print("zero")
-default:
-    print("non-zero")
-}
-
-let animal = "Dog"
-switch animal{
-case "Cat", "Dog":
-    print("animal casero")
-default:
-    print("animal raro")
-}
-
-let hour = 12
-let time:String
-
-switch hour {
-case 1,2,3,4,5,6,7,8,9,10,11:
-    time = "morning"
-case 12...24:
-    time = "afternoon"
-default:
-    time = "non-morning"
-}
-print(time)
-
-// tuples and switch
-let coords = (x:10, y:20)
-switch coords {
-case (0,0):
-    print("origin")
-default:
-    print("\(coords.x) \(coords.y)")
-}
-
-print("\n")
-
-var myOptional: Int? = 1000
-var value: Int = myOptional ?? 100
-print(value)
-
-func myFunc() -> Int {
-  guard let val = myOptional else {
-    return 0
-  }
-  return val
-}
-
-let unwrapped = myFunc()
-print(unwrapped)

@@ -1,27 +1,22 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+`Desarrollo Mobile` > `Swift Fundamentals`
 
-## Titulo del Ejemplo
+## Postwork, Investigación
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
-
-#### REQUISITOS
-
-1. Lo necesario para desarrollar el ejemplo o el Reto
+- Aprender la diferencia entre tipos de datos con nomenclatura similar.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Investigar la diferencia entre *String* y *NSString*.
+
 
 <details>
-
         <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
+        <p> Antes de que Apple decidiera a utilizar Swift como lenguaje solia programarse en Objective-C, en donde los tipos de datos (basados en clases) comenzaban con las palabras NS ya que Objective-C nació en la empresa NextStep.
+        </p>
+        <p>Posteriormente se fueron creando clases llamadas NSString, NSObject, NSArray, etc..., hoy día Swift puede convertir esos tipos de datos a sus propios datos, pero sin usar el prefijo NS.</p>
+        <p>Por último pero no menos importante, La diferencia mas grande entre String vs NSString es que el primero es un Struct y el segundo una Clase.</p>
 </details>
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
 
