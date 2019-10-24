@@ -5,16 +5,16 @@
 Bienvenidos al curso de Programación en Swift.
 En este módulo aprenderemos los fundamentos básicos del lenguaje de programación Swift, así como del entorno de desarrollo de Apps en iOS.
 
-Antes de comenzar deberás **descargar Xcode** en tu equipo. Solo abre el link y da click en descargar.
+### Antes de comenzar...
+
+Primero deberás **descargar Xcode** en tu equipo. Solo abre el link y da click en descargar.
 
 #### [Descargar Xcode desde el App Store](https://apps.apple.com/mx/app/xcode/id497799835?l=en&mt=12)
 
-Igualmente se puede ir descargando los simuladores, ver: 
+Adicionalmente puedes instalar los simuladores: 
 
 [Instalación Simuladores](https://github.com/beduExpert/A1-Swift-Fundamentals/tree/master/Sesion-03/Prework)
 
-Mas información sobre iOS Development: 
-[Developer Program](https://developer.apple.com/programs/)
 
 ### OBJETIVO 
 
@@ -32,4 +32,8 @@ Mas información sobre iOS Development:
  - [Sesión 7](https://github.com/beduExpert/A1-Swift-Fundamentals/tree/master/Sesion-07): Control de flujos
  - [Sesión 8](https://github.com/beduExpert/A1-Swift-Fundamentals/tree/master/Sesion-08): Integración básica (MVC, IBO, IBA) 
 
+
+#### Mas información sobre iOS Development: 
+
+[Developer Program](https://developer.apple.com/programs/)
 
