@@ -9,12 +9,12 @@
 
 ### Prework 
  
-Lectura, que es un Storyboard.
+Lectura: ¿qué es un Storyboard?
  
 - [Introducción a los Storyboards](https://www.efectoapple.com/introduccion-los-storyboards-parte-1/)
  
 
-#### ORGANIZACION DE LA CLASE 
+#### ORGANIZACIÓN DE LA CLASE 
 
 - Generalidades de Storyboard y componentes UIKit.
 
@@ -34,7 +34,7 @@ Lectura, que es un Storyboard.
 	- [Ejemplo 03](Ejemplo-03)
 	- [Reto 03](Reto-03)
 
-- Storyboard, agregar mas de una segunda vista al flujo.
+- Storyboard, agregar más de una segunda vista al flujo.
 
 	- [Ejemplo 04](Ejemplo-04)
 	- [Reto 04](Reto-04)
@@ -46,7 +46,7 @@ Lectura, que es un Storyboard.
 
 - Ejecución de App en multiples simuladores.
 
-- Que son los XIBs, conceptos.
+- ¿Qué son los XIBs, conceptos?
 
 
 ### Postwork
