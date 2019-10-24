@@ -20,6 +20,10 @@ Instalación de simuladores:
 
 - Propiedades de cada componente en el Inspector, personalización.
 
+- Personalización de vistas mediante el Inspector.
+
+	- [PostWork](Postwork)
+
 - Práctica de *Hola Mundo* desde el Storyboard.
 
  	- [Ejemplo 01](Ejemplo-01)
