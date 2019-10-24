@@ -13,26 +13,43 @@
 
 #### ORGANIZACION DE LA CLASE 
 
-**Temas teóricos**
-
 Antes de comenzar es prudente acercarse a una lectura previa de los temas que se irán desarrollando a lo largo del curso.
 
--  Tipos de datos.
 
-	- [Ejemplo 01](Ejemplo-01)
+#### Prework, lectura: 
 
--  Constantes y Variables.
+[Swift The Basics](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
 
-	- [Ejemplo 01](Ejemplo-01)
+[Aprende Los Conceptos Básicos Del Lenguaje De Programación - Likegeeks](https://likegeeks.com/es/tutorial-swift-de-ios/)
 
--  Colecciones.
 
-	- [Ejemplo 01](Ejemplo-01)
+#### Temas teóricos, artículos varios.
 
--  Estructuras de control y flujo.
+-  Tipos de datos:
 
- 	- [Ejemplo 01](Ejemplo-01)
+	- [Tipos de datos en Swift - Medium](https://medium.com/@JuanMorillios/tipos-de-datos-en-swift-3-4005781ce851)
+	- [Swift Data Types - Programmiz](https://www.programiz.com/swift-programming/data-types)
+
+-  Constantes y Variables:
+
+	- [Variables y constantes - Medium](https://medium.com/@cristhianleonli/curso-básico-de-swift-1-bd903733b5b0)
+
+
+-  Colecciones:
+
+	- [Colecciones De Datos - Kodigoswift](https://kodigoswift.com/swift-colecciones-de-datos/)
+	- [Collection Types - Apple](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)
+
+
+-  Estructuras de control y flujo:
+
+ 	- [Estructuras de control - Wikipedia](https://es.wikipedia.org/wiki/Estructuras_de_control)
+ 	- [Controles de flujo en Swift - Programacion.com.py](https://www.programacion.com.py/varios/swift/controles-de-flujo-en-swift-3)
+	- [Control Flow - Apple](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html)
+
 
 -  Operadores, asignación, incremento, comparación, compuertas lógicas.
 
-	- [Ejemplo 01](Ejemplo-01)
+	- [Basic Operators - Apple](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html)
+	- [Operaciones Matemáticas - Likegeeks.com](https://likegeeks.com/es/tutorial-swift-de-ios/#Operaciones-matemaacuteticas)
+	- [Operaciones de Comparación - Likegeeks.com](https://likegeeks.com/es/tutorial-swift-de-ios/#Operadores-de-comparacioacuten)
