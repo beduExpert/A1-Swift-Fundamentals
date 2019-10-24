@@ -53,7 +53,7 @@ Antes de comenzar es prudente acercarse a una lectura previa de los temas que se
 	- [Operaciones de Comparación - Likegeeks.com](https://likegeeks.com/es/tutorial-swift-de-ios/#Operadores-de-comparacioacuten)
 
 
-#### Terminaste los temas?, consulta la documentación oficial:
+#### ¿Terminaste los temas?, consulta la documentación oficial:
 
 [Swift The Basics](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
 
