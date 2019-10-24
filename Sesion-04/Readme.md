@@ -1,16 +1,38 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
+`Desarrollo Mobile` > `Swift Fundamentals`
+ 
 
-## Titulo de la Sesion 
+## Estructura básica de Swift
+### Adición y substracción, multiplicación y división, construyendo y compilando App.
+
 
 ### OBJETIVOS 
 
-- Lo que esperamos que el alumno aprenda al finalizar la sesion 
+- A partir de esta sesión, se aprenderá la sintaxis básica de Swift, estructuras de control y de flujo. Además de la ejecución de código.
+
 
 #### ORGANIZACION DE LA CLASE 
 
-- Tema que veran en el ejemplo
+**Temas teóricos**
+
+Antes de comenzar es prudente acercarse a una lectura previa de los temas que se irán desarrollando a lo largo del curso.
+
+-  Tipos de datos.
 
 	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
 
+-  Constantes y Variables.
+
+	- [Ejemplo 01](Ejemplo-01)
+
+-  Colecciones.
+
+	- [Ejemplo 01](Ejemplo-01)
+
+-  Estructuras de control y flujo.
+
+ 	- [Ejemplo 01](Ejemplo-01)
+
+-  Operadores, asignación, incremento, comparación, compuertas lógicas.
+
+	- [Ejemplo 01](Ejemplo-01)
