@@ -10,8 +10,7 @@
 
 #### REQUISITOS
 
-1. Haber leido la teoria de la [Sesión 4](../Sesion-04) acerca de *Tipos de Datos*.
-2. Tener Xcode instalado, se utilizarán los **Playgrounds** para el desarrollo de esta sesión.
+1. Tener Xcode instalado, se utilizarán los **Playgrounds** para el desarrollo de esta sesión.
 
 
 ### ORGANIZACION DE LA CLASE 
