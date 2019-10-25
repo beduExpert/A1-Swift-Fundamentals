@@ -18,7 +18,7 @@
 
 ![](1.gif)
 
-2.- Se deberan poder hacer calculos ingresando dos números.
+2.- Se deberán de poder hacer cálculos ingresando dos números.
 
 3.- Las operaciones esperadas son suma, resta, multiplicación y división.
 
