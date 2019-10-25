@@ -1,11 +1,11 @@
 
 `Desarrollo Mobile` > `Swift Fundamentals`
 
-## Postwork personalización de UIObjects
+## Postwork: Personalización de UIObjects
 
 ### OBJETIVO
 
-- Familizarizarse mas con los objetos de UIKit y Storyboard.
+- Familizarizarse a profundidad con los objetos de UIKit y Storyboard.
 
 #### DESARROLLO
 
@@ -36,16 +36,17 @@
 
 #### ¿TERMINASTE EL POSTWORK?
 
-Investigar a que se le llama `InterfaceBuilder`.
+Investigar:  
+¿A qué se le llama `InterfaceBuilder`?
 
-Que es `IBInspectable` y`IBDesignable`.
+¿Qué es `IBInspectable` y`IBDesignable`?
 
 Lectura breve (EN)
 [medium.com](https://medium.com/@nimjea/ibdesignable-and-ibinspectable-in-swift-c12ea557b82b)
 
-### Nice to have
+### Algo adicional...
 
-Para tu proyecto final sería increible incluir una manera mas avanzada para personalizar tus componentes. Busca en esta carpeta el archivo en swift llamado `CustomButton.swift` y agregalo a tu proyecto.
+Para tu proyecto final sería increíble incluir una manera más avanzada para personalizar tus componentes. Busca en esta carpeta el archivo en swift llamado `CustomButton.swift` y agrégalo a tu proyecto.
 
 <img src="7.gif" alt="Solucion" width="590" height="330">
 
@@ -58,5 +59,5 @@ Para tu proyecto final sería increible incluir una manera mas avanzada para per
 </details>
 
 
-Quieres saber mas, visita: [supereasyapps.com](https://blog.supereasyapps.com/how-to-create-round-buttons-using-ibdesignable-on-ios-11/)
+¿Quieres saber más?, visita: [supereasyapps.com](https://blog.supereasyapps.com/how-to-create-round-buttons-using-ibdesignable-on-ios-11/)
 
