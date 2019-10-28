@@ -32,8 +32,3 @@ Abrimos la `Terminal` de macOS y tecleamos lo siguiente:
 > xcrun simctl openurl booted https://bedu.mx
 
 ![](3.gif)
-
-
-##### Si quieres saber mas sobre el simulador:
-
-[iOS Simulator Command Line](https://medium.com/@ankitkumargupta/ios-simulator-command-line-tricks-ee58054d30f4)

@@ -25,3 +25,8 @@ Asegurate de tener instalado el simulador de iOS.
  	- [Ejemplo 01](Ejemplo-01)
   
  - Herramientas disponibles siendo un desarrollador de Apple.
+
+ 
+ ### Postwork
+
+- [Simulador y Terminal](Postwork)
