@@ -16,11 +16,6 @@
 Antes de comenzar es prudente acercarse a una lectura previa de los temas que se irán desarrollando a lo largo del curso.
 
 
-#### Prework 
-
-Lectura [Aprende Los Conceptos Básicos Del Lenguaje De Programación - Likegeeks](https://likegeeks.com/es/tutorial-swift-de-ios/)
-
-
 #### Temas teóricos, artículos varios.
 
 -  Tipos de datos:
