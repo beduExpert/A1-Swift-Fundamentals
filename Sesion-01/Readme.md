@@ -9,11 +9,6 @@
 - Utilizar el IDE de trabajo Xcode, las herramientas generales, instalación y configuración. 
 
 
-### Prework 
-
-- [Instalación de Simuladores iOS](Prework)
-
-
 #### ORGANIZACION DE LA CLASE 
 
  - Generalidades de tener una cuenta como [Desarrollador de Apple](https://medium.com/doapps/crear-tu-cuenta-de-desarrollador-en-la-app-store-19776a157052).

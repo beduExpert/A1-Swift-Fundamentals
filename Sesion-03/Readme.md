@@ -6,12 +6,6 @@
 ### OBJETIVOS 
 
 - Aprender los objetos de interfaz mediante el uso de Storyboard. Conocer el entorno general, las opciones disponibles e interacturar con ellas. Al finalizar esta clase el alumno deberá ser capaz de acomodar elementos de UI en la pantalla.
-
-### Prework 
- 
-Lectura: ¿qué es un Storyboard?
- 
-- [Introducción a los Storyboards](https://www.efectoapple.com/introduccion-los-storyboards-parte-1/)
  
 
 #### ORGANIZACIÓN DE LA CLASE 

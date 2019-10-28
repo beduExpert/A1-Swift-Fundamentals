@@ -8,7 +8,7 @@
 - Aprenderán las partes principales de Xcode. Utilizar los simuladores de iphone.
 
 
-### Antes de comenzar...
+### REQUISITOS
 
 Asegurate de tener instalado el simulador de iOS.
 
