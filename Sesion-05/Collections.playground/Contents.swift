@@ -79,6 +79,14 @@ print(dictionary["key1"]?.hashValue ?? 00)
 dictionary = [:]
 
 
+//-----------> STRING OPERATIONS <-----------//
+
+let name = "my name is Ricardo"
+let firstLetter = name.first
+let lastLetter = name.last
+print(firstLetter)
+print(lastLetter)
+print(name.count)
 
 
 

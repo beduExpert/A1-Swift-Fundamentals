@@ -46,16 +46,5 @@ print(instructors)
 
 ```
 
-4.- Los Strings en **Swift 4** son collections tambien, aplicar las mismas operaciones a un String.
-
-```
-let name = "my name is Ricardo"
-let firstLetter = name.first
-let lastLetter = name.last
-print(firstLetter)
-print(lastLetter)
-print(name.count)
-```
-
 Ver [Playground](OperationsCollections.playground) para comparar resultados.
 

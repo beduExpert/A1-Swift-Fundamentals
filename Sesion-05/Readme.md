@@ -46,6 +46,11 @@
 
 - [Investigación](Postwork)
 
+Consultar con los sig. playgrounds, estudiar la implementación del código mostrado:
+
+- [Collections](Collections.playground)
+- [SwiftBasics](SwiftBasics.playground)
+
 
 ### REFERENCIAS
 

@@ -42,13 +42,3 @@ print(last)
 
 let reversed = instructors.reversed()
 print(reversed)
-
-
-//-----------> STRING OPERATIONS <-----------//
-
-let name = "my name is Ricardo"
-let firstLetter = name.first
-let lastLetter = name.last
-print(firstLetter)
-print(lastLetter)
-print(name.count)
