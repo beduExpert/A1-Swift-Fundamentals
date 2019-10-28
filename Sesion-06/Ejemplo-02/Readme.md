@@ -1,27 +1,57 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+`Desarrollo Mobile` > `Swift Fundamentals`
 
-## Titulo del Ejemplo
+## Incrementos y Decrementos
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Aprender incrementos y decrementos en Swift.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Xcode, haber terminado Reto01.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
 
-<details>
+1.- Crear un nuevo proyecto de `Playground`.
 
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+2.- Declarar la sig. variable.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+```
+var a = 10
+```
+
+3.- Aumentarle una unidad. Restarle una unidad.
+Multiplicarla por si misma.
+
+```
+var a = 10
+a = a + 1
+a = a - 1
+a = a * a
+```
+
+4.- Ahora utilizar incrementos y decrementos. Declara una nueva variable.
+
+```
+var b = 10
+b += 10 // += suma y asigna
+b -= 10 // -= resta y asigna
+b *= 10 // *= multiplica y asigna
+```
+
+5.- Prueba diferentes combianciones de incrementos.
+
+```
+var counter: Int = 1
+counter += 1
+counter += 1
+counter -= 1
+counter -= 1
+counter *= 3
+counter *= 3
+counter /= 2 // /= divide y asigna
+```
 
 
