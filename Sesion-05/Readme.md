@@ -34,18 +34,17 @@
 - Collections: Arrays, Sets y Diccionarios.
 
 	- [Ejemplo 05](Ejemplo-05)
-	- [Reto 05](Reto-05)
+	- [Reto 04](Reto-04)
 
 - Operaciones con Collections.
 
 	- [Ejemplo 06](Ejemplo-06)
-	- [Reto 06](Reto-06)
+	- [Reto 05](Reto-05)
 
 
 ### Postwork:
 
 - [Investigación](Postwork)
-
 
 
 ### REFERENCIAS
