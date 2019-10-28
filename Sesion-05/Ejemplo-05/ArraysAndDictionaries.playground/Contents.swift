@@ -1,33 +1,28 @@
 
+import UIKit
 //*----------------------| SWIFT BASICS |----------------------*//
 
 //-----------> ARRAYS <-----------//
-// Creating Empty Array
-var someArray: [Int] = []
 
-// Creating Empty Array Explicitly
-var dogNames: Array<String> = [String]()
+//let array: [Type] = []      // type annotation
+let array: [Int] = []
+let array2: Array<Int> = [] // long form annotation
+let array3 = [Int]()        // initializer
 
-// Adding elements
-someArray.append(3)
-dogNames.append("toby")
+// Explicitly declaration with contents
+var instructors: [String] = ["Ricardo", "Juan", "David", "Ismael"]
+let primes: [Int] = [1, 2, 3, 5, 7, 11]
+let sqrts: [Double] = [1, 1.414, 1.732, 2.236, 2.646, 3.317]
 
-// Initialize array with values
-var numbers = [1, 2, 3, 4, 5, 6 , 7, 8, 9]
-var names = ["richo", "violeta", "jose", "roberto"]
+// Subscripting
+let ricardo = instructors[0]
+print(ricardo)
 
-// Add values
-names += ["eli"]
-names[0] = "value"
-print(names)
+//-----------> OPERATIONS <-----------//
 
-// Creating array of repeating values
-let allZeros = [Int](repeating:0, count:5)
-let arrayFrom1to10 = [1...10]
-
-// The isEmpty operation
-var anEmptyArray: [Int] = []
-anEmptyArray.isEmpty
+// APPEND()
+instructors.append("Violeta")
+print(instructors)
 
 
 //-----------> SETS <-----------//

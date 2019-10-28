@@ -2,98 +2,60 @@
 
 `Desarrollo Mobile` > `Swift Fundamentals`
 	
-## App de Maps 
+## Operaciones con Collections
 
 ### OBJETIVO 
 
-- Utilizar los conceptos de variables, constantes, tipos de datos y tuplas.
+- Aprender las diferentes funciones de collections en Swift.
+- Utilizar las operaciones: `append()`, `remove()`, `removeLast()`, `popLast()`, `reverse()`, `first`, `last`, `count`, `isEmpty`.
 
 #### REQUISITOS 
 
-1. Xcode instalado.
+1. Xcode instalado. 
 
 #### DESARROLLO
 
-El proyecto a desarrollar será una app de Mapas en donde se mostrará una ubicación.
-Las coordenadas deberán estar basadas en tuplas.
+1.- Crearemos un playground en donde implementaremos el código.
 
-<img src="0.png" alt="Resultado Final" width="220" height="430"></img>
-
-
-1.- Crear un nuevo proyecto de Xcode como **Single View App**, con Swift y playgrounds.
-
-
-![](1.png)
-
-2.- Agregaremos el Framework de Mapas, nos dirigmos a la ventana de conf. del proyecto, buscamos *Frameworks* y agregamos *MapKit.framework*.
-
-
-![](2.png)
-![](3.png)
-
-3.- Nos dirigimos al Storyboard y ahi agregaremos (arrastrando al view controller) un elemento de Mapa, *Map Kit View*.
-
-![](4.png)
-![](5.png)
-
-
-4.- Agregamos los constraints para que se ajuste a la pantalla.
-
-![](6.png)
-![](7.gif)
-
-5.- Conectamos el **MKMapView** con el archivo **ViewController.swift** y agregamos el framework.
-
+2.- Declararemos arrays de diferentes maneras, explícita e implicitamente, tambien con valores de inicio.
 
 ```
-import UIKit
-import MapKit //framework
+let array: [Int] = []
+let array2: Array<Int> = [] // long form annotation
+let array3 = [Int]()        // initializer
 
-class ViewController: UIViewController {
-
-  @IBOutlet weak var mapView: MKMapView!
-  
-  override func viewDidLoad() {
-    super.viewDidLoad()
-    // Do any additional setup after loading the view.
-  }
-}
-```
-
-6.- Creamos una función para agregar el pin del mapa.
+// Explicitly declaration with contents
+var instructors: [String] = ["Ricardo", "Juan", "David", "Ismael"]
+let primes: [Int] = [1, 2, 3, 5, 7, 11]
+let sqrts: [Double] = [1, 1.414, 1.732, 2.236, 2.646, 3.317]
 
 ```
-  private func addPinLocation() {
-  }
-```
 
-7.- En esta función declaramos las coordenadas como una tupla.
+3.- Aplicaremos las diferentes operaciones antes mencionadas. Nos apoyaremos con la función `print()` para visualizar los valores.
 
 ```
-    let locationName: String = "El Ángel"
-    let locationSubtitle: String = "de la Independencia"
-    let coordinates: (lat: Double, long: Double) =  (19.426980, -99.167696)
-    let location = CLLocationCoordinate2D(latitude: coordinates.lat, longitude: coordinates.long)
-```
+let numberOfItems = instructors.count
+print(numberOfItems)
 
-8.- Agregamos un area de acercamiento y establecemos una región visible en el mapa.
+print(instructors.isEmpty)
+print(instructors.first)
+print(instructors.last)
 
-```
-    let span = MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
-    let region = MKCoordinateRegion(center: location, span: span)
-    mapView.setRegion(region, animated: true)
-```
-
-9.- Finalmente agregamos el pin al mapa con `MKPointAnnotation`.
+instructors.append("Violeta")
+print(instructors)
 
 ```
-    let annotation = MKPointAnnotation()
-    annotation.coordinate = location
-    annotation.title = locationName
-    annotation.subtitle = locationSubtitle
-    mapView.addAnnotation(annotation)
+
+4.- Los Strings en **Swift 4** son collections tambien, aplicar las mismas operaciones a un String.
+
+```
+let name = "my name is Ricardo"
+let firstLetter = name.first
+let lastLetter = name.last
+print(firstLetter)
+print(lastLetter)
+print(name.count)
 ```
 
-
-
+Ver [Playground](OperationsCollections.playground) para comparar resultados.
 
