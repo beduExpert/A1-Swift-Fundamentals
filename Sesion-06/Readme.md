@@ -2,6 +2,7 @@
 
 
 ## Operadores 
+
 ### Asignación, aritmético, incremento, decremento, compuestos, comparación, rango y lógicos.
 
 ### OBJETIVOS 
@@ -10,7 +11,7 @@
 
 #### ORGANIZACION DE LA CLASE 
 
-- Operadores de asignación.
+- Operadores.
 
 	- [Ejemplo 01](Ejemplo-01)
 	- [Reto 01](Reto-01)

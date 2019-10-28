@@ -10,7 +10,6 @@
 #### REQUISITOS
 
 1. Basarse en el proyecto `Calculator-Starter`.
-2. Apoyarse del [Reto-04](https://github.com/beduExpert/A1-Swift-Fundamentals/tree/master/Sesion-03/Reto-04) para los IBActions.
 
 #### DESARROLLO
 

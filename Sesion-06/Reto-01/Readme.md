@@ -1,27 +1,62 @@
  
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
+`Desarrollo Mobile` > `Swift Fundamentals` 
 	
-## Titulo del Ejemplo 
+## Implementación de Operadores
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+- Aprender el uso de operadores mediante funciones. 
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. Xcode y Playgrounds.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+1.- Crear un nuevo proyecto de Playground.
+
+2.- Escribir la sig. función.
+
+```
+func operator(_ val1: Int, _ val2: Int) -> Bool {
+	return val1 < val2
+}
+
+let result = operator(5, 4)
+print(result)
+
+```
+
+3.- Crear mas funciones con diferentes operadores  (>, >=, !=, ==, etc..) y mostrar los resultados.
+
 
 <details>
-
 	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
+	<p>Funciones con diferentes operadores.</p>
+	
+	func operator(_ val1: Int, _ val2: Int) -> Bool {
+	return val1 < val2
+	}
+	
+	func operator2(_ val1: Int, _ val2: Int) -> Bool {
+	return val1 > val2
+	}
+	
+	func operator3(_ val1: Int, _ val2: Int) -> Bool {
+	return val1 <= val2
+	}
+	
+	func operator4(_ val1: Int, _ val2: Int) -> Bool {
+	return val1 >= val2
+	}
+	
+	func operator5(_ val1: Int, _ val2: Int) -> Bool {
+	return val1 != val2
+	}
+	
+	func operator6(_ val1: Int, _ val2: Int) -> Bool {
+	return val1 == val2
+	}
 </details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
 

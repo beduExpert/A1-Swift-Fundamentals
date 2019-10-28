@@ -1,27 +1,57 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+`Desarrollo Mobile` > `Swift Fundamentals`
 
-## Titulo del Ejemplo
+
+## Operadores
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Aprender el uso del operador de asignación, los operadores aritméticos y relacionales. En que casos es posible utilizarlo.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Xcode y Playgrounds.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+1.- Crear un nuevo proyecto de Playgroud.
 
-<details>
+2.- Declarar una variable y constante.
+Y aplicar el operador de asignación de valor **=**.
 
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+3.- Intentar actualizar el valor de una constante y anotar observaciones en un comentario.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+```
+// Observaciones
+let pi = 3.1416
+pi = 4.3
+```
+
+4.- Operadores aritméticos. Implementar la jerarquía de operaciones. Implementar la operación **6/2(2+1)** en variables separadas.
+
+```
+let div: Float = Float(6/2)
+let sum: Float = Float(2+1)
+let result = div * sum
+```
+
+5.- Con el uso de `print()` hacer uso de los siguientes operadores relacionales. Ir variando los valores de `num1`, y `num2`.
+
+```
+let num1 = 10
+let num2 = 20
+
+print(num1<num2)
+print(num1<=num2)
+print(num1>num2)
+print(num1>=num2)
+print(num1==num2)
+print(num1!=num2)
+``` 
+
+
+
+
+
 
 
