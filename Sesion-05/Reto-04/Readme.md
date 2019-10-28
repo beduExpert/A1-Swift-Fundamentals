@@ -2,76 +2,84 @@
 
 `Desarrollo Mobile` > `Swift Fundamentals`
 	
-## App utlizando Collections
+## App de Maps con Rutas
 
 ### OBJETIVO 
 
-- Esta reto consiste en crear una app donde se utilice un Array con sus operaciones además de un Slider. Esta app permitirá cambiar el color de un Subview.
+- Crear una app de mapas donde se muestra la ruta entre dos puntos, aplicando los conceptos aprendidos en esta unidad.
+
 
 #### REQUISITOS 
 
-1. Xcode instalado.
+1. Basarse en el [Template](Template) proporcionado.
 
 #### DESARROLLO
 
-![](1.gif)
+El proyecto a desarrollar será una app de Mapas en donde se mostrarán dos puntos de ubicación y la ruta para llegar de un punto a otro.
 
-Crear un proyecto de Xcode
+<img src="0.png" alt="Resultado Final" width="200" height="430"></img>
 
-![](0.png)
+Las coordenadas deberán estar basadas en tuplas.
 
-1.- En el Storyboard agregamos un Slider y un View. Al View le cambiamos el color para diferenciarlo del fondo.
+1.- Agregar dos coordeandas, no muy lejanas como se vio en el Reto-03.
 
-![](2.png)
-![](3.png)
-![](1.png)
+2.- Crear dos variables de tipo CLLocationCoordinate2D
+        
+3.- Crea dos variables de tipo MKPlacemark, cada una de estas variables debe tener como valor el location correspondiente.
+    
+4.- Crea dos variables de tipo MKMapItem, estas variables deben tener como valor cada placemark creado.
 
-2.- Conectamos los elementos con su ViewController.swift.
+5.- Centrar el mapa en una region, MKCoordinateRegion.
 
+6.- Agrega los Annotations (pines) del mapa, utiliza la función addAnnotation,
+ ejemplo: 
 
-![](4.png)
+ > addAnnotation(coordinate: locationAngel, name: coordsAngel.name, subtitle: coordsAngel.subtitle)
 
-3.- Crearemos nuestras variables de colores y el Array vacio donde agregaremos los colores
-
-```
-  let green = UIColor.green
-  let blue = UIColor.blue
-  let black = UIColor.black
-  let red = UIColor(red: 0.92, green: 0.24, blue: 0.25, alpha: 1.00)
-  
-  // Empty array
-  var colors: [UIColor] = []
-```
-
-4.- Dentro de la función ViewDidLoad() agregamos las operaciones de Array. Estas operaciones permiten agregar los colores al Array `colors`.
-
-```
- colors.append(red)
- colors.append(green) 
- colors.append(blue)
- colors.append(black)
-```
-
-5.- En esa misma función configuramos el `Slider`.
-
-```
-slider.maximumValue = Float(colors.count) - 1
-slider.minimumValue = 0.0
-slider.value = 1
-```
-
-6.- Ahora bien, agregamos una acción a nuestro slider. Este *IBAction* permitirá cambiar el color del Subview.
-
-```
-  @IBAction func changeColor(_ sender: Any) {
-    let index = Int(slider.value)
-    let color = colors[index]
-    subview.backgroundColor = color
-  }
-```
-
-7.- Finalmente ejecutamos la App.
+7.- Crea la ruta, basate en la función `directions()`, para ello necesitaras usar los `MKMapItems`.
 
 
+> directions(source: sourceMapItem, destination: destinationMapItem)
+    
+<details>
+        <summary>Solución</summary>
+1.- Agregar dos coordeandas, no muy lejanas como se vio en el Reto-03.
 
+    let coordsAngel: (name: String, subtitle: String, lat: Double, long: Double) =  ("El Ángel", "de la Independencia", 19.426980, -99.167696)
+    let coordsPalace: (name: String, subtitle: String, lat: Double, long: Double) =  ("Palacio", "de Bellas Artes", 19.435352, -99.141055)
 
+2.- Crear dos variables de tipo CLLocationCoordinate2D
+
+    let locationAngel = CLLocationCoordinate2D(latitude: coordsAngel.lat, longitude: coordsAngel.long)
+    let locationPalace = CLLocationCoordinate2D(latitude: coordsPalace.lat, longitude: coordsPalace.long)
+    
+        
+3.- Crea dos variables de tipo MKPlacemark, cada una de estas variables debe tener como valor el location correspondiente.
+
+	let sourcePlacemark = MKPlacemark(coordinate: locationAngel, addressDictionary: nil)
+    let destinationPlacemark = MKPlacemark(coordinate: locationPalace, addressDictionary: nil)
+    
+4.- Crea dos variables de tipo MKMapItem, estas variables deben tener como valor cada placemark creado.
+
+	let sourceMapItem = MKMapItem(placemark: sourcePlacemark)
+    let destinationMapItem = MKMapItem(placemark: destinationPlacemark)
+
+5.- Centrar el mapa en una region, MKCoordinateRegion.
+
+	let span = MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
+    let region = MKCoordinateRegion(center: locationAngel, span: span)
+    mapView.setRegion(region, animated: true)
+
+6.- Agrega los Annotations (pines) del mapa, utiliza la función addAnnotation.
+
+	addAnnotation(coordinate: locationAngel, name: coordsAngel.name, subtitle: coordsAngel.subtitle)
+    addAnnotation(coordinate: locationPalace, name: coordsPalace.name, subtitle: coordsPalace.subtitle)
+
+7.- Crea la ruta, basate en la función `directions()`, para ello necesitaras usar los `MKMapItems`.
+
+    directions(source: sourceMapItem, destination: destinationMapItem)
+
+            
+</details>
+
+Ver proyecto [Final](final).

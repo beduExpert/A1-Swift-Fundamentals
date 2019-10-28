@@ -30,17 +30,17 @@
 	- [Ejemplo 03](Ejemplo-03)
 	- [Ejemplo 04](Ejemplo-04)
 	- [Reto 03](Reto-03)
+	- [Reto 04](Reto-04)
 
 - Collections: Arrays, Sets y Diccionarios.
 
 	- [Ejemplo 05](Ejemplo-05)
-	- [Reto 04](Reto-04)
+	- [Reto 05](Reto-05)
 
 - Operaciones con Collections.
 
 	- [Ejemplo 06](Ejemplo-06)
-	- [Reto 05](Reto-05)
-
+	- [Reto 06](Reto-06)
 
 ### Postwork:
 
