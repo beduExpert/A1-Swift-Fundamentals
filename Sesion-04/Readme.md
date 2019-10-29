@@ -18,6 +18,8 @@ Antes de comenzar es prudente acercarse a una lectura previa de los temas que se
 
 #### Temas teóricos, artículos varios.
 
+##### Teoría:
+
 -  Tipos de datos.
 
 -  Constantes y Variables.
@@ -28,7 +30,13 @@ Antes de comenzar es prudente acercarse a una lectura previa de los temas que se
 
 -  Operadores, asignación, incremento, comparación, compuertas lógicas.
 
-	- [Ejemplo 1](Ejemplo-01)
+##### Práctica:
+
+- [Ejemplo, Jerarquía de Operaciones](Ejemplo-01)
+
+- [Ejemplo, Operaciones matemáticas](Ejemplo-02)
+
+- [Reto, Operaciones](Reto-01)
 
 #### Postwork
 
