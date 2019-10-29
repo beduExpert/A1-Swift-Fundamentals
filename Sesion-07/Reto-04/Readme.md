@@ -3,26 +3,38 @@
 `Desarrollo Mobile` > `Swift Fundamentals`
 
 	
-## Titulo del Ejemplo 
+## Where: Iteraciones bajo condiciones.
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+- Aprender el uso de la palabra reservada `where`.
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. Comprensión de los Ciclos vistos en esta undidad, FOR, WHILE, REPEAT-WHILE.
+
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+1.- Crear un cíclo (el de su preferencia), que cuente del 1 al 100. Y solo sumar los números **pares**.
 
-<details>
+```
+let count = 100
+var sum = 0
+for i in 1...count where i % 2 == 0 {
+sum += i }
+```
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
+2.- Crear un cíclo (el de su preferencia), que cuente del 1 al 100. Y solo sumar los números **impares**.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+```
+let count = 100
+var sum = 0
+for i in 1...count where i % 2 == 1 {
+sum += i }
+```
+
+
+
+
 
