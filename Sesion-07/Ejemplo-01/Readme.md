@@ -1,27 +1,73 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+`Desarrollo Mobile` > `Swift Fundamentals`
 
-## Titulo del Ejemplo
+
+## For y For-Each
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Aprender que es un cíclo, un cíclo infinito y el uso de los cíclos For y For-each.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Playgrounds. Buena comprensión de la Sesión 6.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+1.- Crear un nuevo archivo de Playground y escribir.
 
-<details>
+```
+let answer1 = true && true
+let answer2 = false || false
+let answer3 = (true && 1 != 2) || (4 > 3 && 100 < 1)
+let answer4 = ((10 / 2) > 3) && ((10 % 2) == 0)
+```
 
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+Mostrar la salida de cada variable mediante un `print()`
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+2.- Crear un rango del 0 al 10.
+
+> let rango = 0...10
+
+3.- Crear un rango del 0 al 9.
+
+> let rango2 = 0..<10
+
+4.- FOR LOOP.
+Crear un For-Loop que muestre los números del 0 al 10 mediante el uso de un `print()`. Utilizar la variable `rango`.
+
+```
+for i in rango {
+  print(i)
+}
+```
+
+5.- FOR LOOP.
+Crear un For-Loop que muestre los números del 0 al 9 mediante el uso de un `print()`. Utilizar la variable `rango2`.
+
+```
+for i in rango2 {
+  print(i)
+}
+```
+
+6.- INCREMENTOS. Declarar una variable entera con valor inicial de 0. Mediante un For-Loop incrementar esta variable de 1 en 1 hasta llegar a 50.
+
+```
+let count = 50
+var sum = 0
+for i in 1...count {
+  print(i)
+  sum += i
+}
+print(sum)
+```
+
+
+
+
+
+
+
 
 
