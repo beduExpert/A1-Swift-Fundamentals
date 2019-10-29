@@ -2,27 +2,60 @@
 `Desarrollo Mobile` > `Swift Fundamentals`
 
 
-## Titulo del Ejemplo
+## Control de Flujo
+### Uso de Operadores, incremento, comparación y condicionales.
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Hacer uso de los tres cíclos aprendidos durante esta sesión.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Entendimiento del uso de FOR, WHILE Y REPEAT-WHILE.
+
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+1.- Mostrar utilizando un cíclo FOR los número IMPARES de una secuencia de 100 números.
 
-<details>
+```
+for i in 0...100 {
+  if i % 2 != 0 {
+    // impares
+    print(i)
+  }
+}
+```
 
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+2.- Mostrar los números de una secuencia del 0 al 100 **excepto** aquellos que esten dentro **del rango 40 y 60**.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+```
+for i in 0...100 {
+  if i < 40 || i > 60 {
+    print(i)
+  }
+}
+```
 
+3.- Crear una secuencia del 0 al 100 pero solo mostrando valores entre 40 y 60.
 
+```
+for i in 0...100 {
+  if i >= 40 && i <= 60 {
+    print(i)
+  }
+}
+```
+
+4.- Crear un ciclo infinito WHILE en donde se incremente una variable de 1 en 1, además esta variable al llegar a 50 debe detener el ciclo.
+
+```
+var i = 0
+while true {
+  if i == 50 {
+    break
+  }
+  print(i)
+  i += 1
+}
+```
