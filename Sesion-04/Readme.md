@@ -18,35 +18,17 @@ Antes de comenzar es prudente acercarse a una lectura previa de los temas que se
 
 #### Temas teóricos, artículos varios.
 
--  Tipos de datos:
+-  Tipos de datos.
 
-	- [Tipos de datos en Swift - Medium](https://medium.com/@JuanMorillios/tipos-de-datos-en-swift-3-4005781ce851)
-	- [Swift Data Types - Programmiz](https://www.programiz.com/swift-programming/data-types)
+-  Constantes y Variables.
 
--  Constantes y Variables:
+-  Colecciones.
 
-	- [Variables y constantes - Medium](https://medium.com/@cristhianleonli/curso-básico-de-swift-1-bd903733b5b0)
-
-
--  Colecciones:
-
-	- [Colecciones De Datos - Kodigoswift](https://kodigoswift.com/swift-colecciones-de-datos/)
-	- [Collection Types - Apple](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)
-
-
--  Estructuras de control y flujo:
-
- 	- [Estructuras de control - Wikipedia](https://es.wikipedia.org/wiki/Estructuras_de_control)
- 	- [Controles de flujo en Swift - Programacion.com.py](https://www.programacion.com.py/varios/swift/controles-de-flujo-en-swift-3)
-	- [Control Flow - Apple](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html)
-
+-  Estructuras de control y flujo.
 
 -  Operadores, asignación, incremento, comparación, compuertas lógicas.
 
-	- [Basic Operators - Apple](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html)
-	- [Operaciones Matemáticas - Likegeeks.com](https://likegeeks.com/es/tutorial-swift-de-ios/#Operaciones-matemaacuteticas)
-	- [Operaciones de Comparación - Likegeeks.com](https://likegeeks.com/es/tutorial-swift-de-ios/#Operadores-de-comparacioacuten)
-
+	- [Ejemplo 1](Ejemplo-01)
 
 #### Postwork
 
