@@ -6,7 +6,7 @@
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Identificar los conceptos de lógica booleana y compuertas. 
 
 #### REQUISITOS
 
