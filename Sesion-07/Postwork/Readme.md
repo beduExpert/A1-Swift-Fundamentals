@@ -1,28 +1,64 @@
+ 
 
 `Desarrollo Mobile` > `Swift Fundamentals`
 
+	
+## Reto de la piramide
 
-## Titulo del Ejemplo
+### OBJETIVO 
 
-### OBJETIVO
+- Con lo aprendido de ciclos, se deberia poder implementar el sig. algoritmo. 
 
-- Lo que esperamos que el alumno aprenda
+#### REQUISITOS 
 
-#### REQUISITOS
+1. Comprensión de los Ciclos vistos en esta undidad, FOR, WHILE, REPEAT-WHILE.
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+1.- Crear un código que tenga ciclos anidados que permita crear el siguiente patrón o alguno similar.
+
+```
+    *
+   ***
+  *****
+ *******
+*********
+```
+
 
 <details>
+        <summary>Solución</summary>
+<p>  Declarar el número de filas de la pirámida, rows = 6. </p>
+<p>  una variable que almacenara la cadena, note que es un espacio en blanco y un o varios asteriscos en cada caso. </p>
+<p> Se debe crear un cíclo para espacios y un cíclo para agregar asteriscos. </p>
 
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
+<p>  En cada iteración se debe resetear los valores del contador K y del valor de la cadena de salida </p>
+
+<p>  El código es el siguiente: </p>
+
+```
+var k = 0
+var rows = 6
+var asterics = ""
+
+for i in 1..<rows {
+  for _ in 1..<rows - i {
+    asterics.append(" ")
+  }
+  while (k != 2 * i - 1) {
+    asterics.append("*")
+    k += 1
+  }
+  print(asterics)
+  //reset values
+  k = 0
+  asterics = ""
+}
+```
+
 </details>
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+
 
 
