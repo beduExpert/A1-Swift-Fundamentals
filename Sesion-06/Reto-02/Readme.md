@@ -6,22 +6,54 @@
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+- Reforzar el concepto de incremento y decrementos.
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. Playgrounds. Haber concluido el ejemplo 02. 
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+1.- Inicializa una variable entera con valor 0.
+
+2.- A esta variable entera incrementala por 1, pero no uses notación *shorthand*.
+
+3.- A esta variable entera decrementala por 5, pero no uses notación *shorthand*.
+
+4.- A esta variable entera incrementala por 10, pero ahora SI usa notación *shorthand*.
+
+5.- A esta variable multiplicala por 40 pero no uses notación *shorthand*.
+
+6.- A esta variable multiplicala por 40 pero ahora utilizando notación *shorthand*.
 
 <details>
+        <summary>Solución</summary>
+        
+1.- Inicializa una variable entera con valor 0.
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
+	var myVariable: Int = 0
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+2.- A esta variable entera incrementala por 1, pero NO uses notación *shorthand*.
+
+	myVariable = myVariable + 1
+
+3.- A esta variable entera decrementala por 5, pero NO uses notación *shorthand*.
+
+	myVariable = myVariable - 5
+
+4.- A esta variable entera incrementala por 10, pero ahora SI usa notación *shorthand*.
+
+	myVariable += 10
+
+5.- A esta variable multiplicala por 40 pero NO uses notación *shorthand*.
+
+	myVariable = myVariable * 40
+
+6.- A esta variable multiplicala por 40 pero ahora utilizando notación *shorthand*.
+
+	myVariable *= 40
+
+</details>
+
+
 
