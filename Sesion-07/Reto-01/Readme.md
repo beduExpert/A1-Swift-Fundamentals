@@ -1,27 +1,49 @@
  
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
+`Desarrollo Mobile` > `Swift Fundamentals`
+
 	
-## Titulo del Ejemplo 
+## Práctica con For.
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+- Aplicar el uso de For a distintos problemas.
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. Playgroudns y buen entendimiento del tema For del Ejemplo01.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+1.- Crea un Array con 5 valores de tipo String. Con un For-Loop mostrar cada valor de este Array.
+
+2.- Crea un Array con 15 valores de tipo Int. Con un For-Loop mostrar cada valor de este Array.
+
+3.- Mediante el uso de For-Loop crear el alfabeto, recuerda que son 26 letras en el alfabeto inglés.
+Ayuda: `String(format: "%c", i+65)`
+
 
 <details>
+        <summary>Solución</summary>
+<p> Respueta 1. </p>
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
+	let array = ["a","b","c","d","e"]
+	for i in array {
+  		print(i)
+	}
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+<p> Respueta 2. </p>
+
+	let arrayInts = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+	for i in arrayInts {
+		print(i)
+	}
+
+<p> Respuesta 3. </p>
+
+	for i in 0..<26 {
+		let string = String(format: "%c", i+65)
+		print(string)
+	}
+</details>
 

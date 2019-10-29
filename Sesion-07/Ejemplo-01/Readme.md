@@ -2,11 +2,11 @@
 `Desarrollo Mobile` > `Swift Fundamentals`
 
 
-## For y For-Each
+## For Loop
 
 ### OBJETIVO
 
-- Aprender que es un cíclo, un cíclo infinito y el uso de los cíclos For y For-each.
+- Aprender que es un cíclo, un cíclo infinito y el uso de los cíclos For.
 
 #### REQUISITOS
 

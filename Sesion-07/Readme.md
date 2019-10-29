@@ -10,12 +10,22 @@
 
 #### ORGANIZACION DE LA CLASE 
 
-- Estructuras de Control de flujo, For, For each, While, Repeat-while.
+- Estructuras de Control de Flujo: 
+For, While, Repeat-while.
 
-	- [Ejemplo 01](Ejemplo-01)
+	- For [Ejemplo 01](Ejemplo-01)
 	- [Reto 01](Reto-01)
+	- While [Ejemplo 02](Ejemplo-02)
+	- [Reto 02](Reto-02)
+	- Repeat-While [Ejemplo 03](Ejemplo-03)
+	- [Reto 03](Reto-03)
 
-- Operadores, asignación, incremento, comparación, compuertas lógicas.
+- Control de Flujo: Uso de Operadores, incremento, comparación y condicionales.
 
-	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
+	- [Ejemplo 04](Ejemplo-04)
+	- [Reto 04](Reto-04)
+
+
+### Postwork
+
+- [Postwork](Postwork)
