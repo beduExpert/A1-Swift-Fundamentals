@@ -1,27 +1,104 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+`Desarrollo Mobile` > `Swift Fundamentals`
 
-## Titulo del Ejemplo
+
+## Estructuras de Control
+## IF-ELSE
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Poner en práctica lo aprendido sobre lógica booleana y operadores mediante estructuras de control IF-ELSE.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Comprender los temas de Operadores, Lógica Booleana, Tipos de datos, variables y constantes.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+##### THE IF STATEMENT
 
-<details>
+1.- Así como aprendimos a crear variables con operadores relacionales como:
 
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+> let result = 5 < 10
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+Es posible crear una estructura que evalue esta condición.
 
+SI esta condición es Verdadera, ejecutamos el código dentro de la estructura.
 
+```
+if 5 < 10 {
+	// ejecutamos este código
+}
+```
+
+SI la condición es Falsa, ejecutamos el código en la estructura `else`.
+
+```
+if 5 < 10 {
+	// ejecutamos este código
+} else {
+	// ejecutamos este código en caso de que la condición sea falsa.
+}
+```
+
+1.- Declarar dos variables con números enteros y compararlos , utilizar IF-ELSE. En el interior de cada uno de ellos usar la función `print()`. Utilizar todos los operadores `>,<,==,!=, <=, >=`.
+
+```
+let num1 = 100
+let num2 = 300
+
+if num1 < num2 {
+	print("num1 es menor que num2")
+} else {
+	print("num1 NO es menor que num2")
+}
+```
+
+2.- Declarar una variable tipo String con un valor, luego compararlo utilizando un IF-ELSE y una OR.
+
+```
+let animal = "Gato"
+if animal == "Cat" || animal == "Dog" {
+	print("Es Cat o Dog")
+} else {
+	print("No es Cat, ni es Dog")
+}
+```
+
+3.- Uso de ELSE-IF.
+Declarar una variable entera para indicar una hora del dia. Luego una variable tipo String que cambiará de acuerdo a la hora del día especificada.
+
+```
+let hourOfDay = 12
+var timeOfDay: String = "Medio dia"
+if hourOfDay < 6 {
+  timeOfDay = "Madrugada"
+} else if hourOfDay < 12 {
+  timeOfDay = "Mañana"
+} else if hourOfDay < 17 {
+  timeOfDay = "Tarde"
+} else if hourOfDay < 20 {
+  timeOfDay = "Noche"
+} else if hourOfDay < 24 {
+  timeOfDay = "Muy Noche"
+} else {
+  timeOfDay = "Hora invalida"
+}
+print(timeOfDay)
+```
+
+4.- Short circuiting. Evaluar dos condiciones mediante un &&. La primera condición comparará dos números y la segunda dos Strings.
+
+```
+if 1 > 2 && name == "Matt Galloway" {
+	print("se cumplen AMBAS condiciones")
+}
+```
+
+5.- Ahora utilizando ||.
+
+```
+if 1 > 2 || name == "Matt Galloway" {
+	print("se cumple ALGUNA condición")
+}
+```

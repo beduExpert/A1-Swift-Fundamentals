@@ -1,27 +1,80 @@
  
+`Desarrollo Mobile` > `Swift Fundamentals`
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## Ejercicios con IF-ELSE y Switch-Case 
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+- Aplicar lo aprendido en esta unidad, enfocandonos a Estructuras de Control
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. Playgrounds y haber concluido Ejemplo05 y Ejemplo06.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+1.- Resuelva el sig. problema.
+
+Si tu ganas $25 pesos por cada, hasta trabajar 40 hrs y $50 por cada hora extra.
+¿Cuanto ganarás si trabajas 45 hrs?.
+Escriba el código.
+
+2.- Mediante uso de IF-ELSE verificar si un número es par o impar.
+
+3.- Mediante uso de Swich-Case verificar si un número es par o impar.
+
+4.- Mediante el uso de tuplas, verificar si la coordenada en (x,y) es el ángel de la independencia.
+
+
 
 <details>
+        <summary>Solución</summary>
+<p> 1.- Respuesta </p>
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
+```
+var hoursWorked = 45
+var price = 0
+if hoursWorked > 40 {
+let hoursOver40 = hoursWorked - 40 price += hoursOver40 * 50 hoursWorked -= hoursOver40
+}
+price += hoursWorked * 25
+print(price)
+```
+<p> 2.- Mediante uso de IF-ELSE verificar si un número es par o impar. </p>
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+```
+let number = 10
+if number % 2 == 0 {
+  print(" es par ")
+} else {
+  print(" es impar ")
+}
+```
 
+<p> 3.- Mediante uso de Swich-Case verificar si un número es par o impar. </p>
+
+```
+let number = 10
+switch number {
+case _ where number % 2 == 0:
+  print(" es par ")
+default:
+  print(" es impar ")
+}
+```
+
+
+<p> 4.- Mediante el uso de tuplas, verificar si la coordenada en (x,y) es el ángel de la independencia.
+ </p>
+
+```
+let coordinates: (lat: Double, long: Double) = (19.426980, -99.167696)
+switch coordinates {
+case (19.426980, -99.167696):
+  print("El angel")
+default: // 5
+  print("Somewhere in space")
+}
+```
+
+</details>
