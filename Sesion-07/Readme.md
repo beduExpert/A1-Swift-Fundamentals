@@ -28,4 +28,4 @@ For, While, Repeat-while.
 
 ### Postwork
 
-- [Postwork](Postwork)
+- [Reto de la Pirámide](Postwork)
