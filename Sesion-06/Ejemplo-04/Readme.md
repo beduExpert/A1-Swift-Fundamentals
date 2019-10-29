@@ -2,27 +2,48 @@
 
 `Desarrollo Mobile` > `Swift Fundamentals`
 
-## Titulo del Ejemplo
+## Conversión de tipo de datos, Type Casting
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Aprender a convertir entre diferentes tipos de datos nativos en Swift.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Xcode y Playgrounds.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Declarar 6 tipos distintos de variables. Bool, Int, Float, Double, String.
 
-<details>
+En algunos casos la conversión no es posible, ya que hay algunos requerimientos adicionales.
 
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+```
+let a: Bool = false
+let b: Int = 5
+let c: Float = 93.21
+let d: Double = 3.213213
+let f: String = "3.1416"
+let g: String = "Name"
+```
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+2.- Convertir de tipo `Float` a `Int`.
+
+```
+let result: Int = Int(c)
+```
+
+3.- Convertir de tipo `Double` a `Float`.
+
+```
+let result: Float = Float(d)
+```
+
+4.- Convertir de tipo `Double` a `String`.
+
+```
+let result: String = String(d)
+```
+
 
 

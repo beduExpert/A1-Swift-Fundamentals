@@ -26,7 +26,7 @@
 	- [Ejemplo 03](Ejemplo-03)
 	- [Reto 03](Reto-03)
 	
-- Conversión de tipo de datos, ej. (Double a Int, etc.)
+- Conversión de tipo de datos, Type Casting.
 
 	- [Ejemplo 04](Ejemplo-04)
 	- [Reto 04](Reto-04)
