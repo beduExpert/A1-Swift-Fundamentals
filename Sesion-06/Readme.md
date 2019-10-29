@@ -31,7 +31,7 @@
 	- [Ejemplo 04](Ejemplo-04)
 	- [Reto 04](Reto-04)
 
-- Estructuras de Control, IF, Switch-Case.
+- Estructuras de Control, IF-ELSE, Switch-Case.
 
 	- [Ejemplo 05](Ejemplo-05)
 	- [Reto 05](Reto-05)
