@@ -1,27 +1,55 @@
- 
+
 
 `Desarrollo Mobile` > `Swift Fundamentals`
-	
-## Titulo del Ejemplo 
 
-### OBJETIVO 
+## Conversión de tipo de datos, Type Casting
 
-- Lo que esperamos que el alumno aprenda 
+### OBJETIVO
 
-#### REQUISITOS 
+- Aprender a convertir entre diferentes tipos de datos nativos en Swift.
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+#### REQUISITOS
+
+1. Xcode y Playgrounds.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Basandonos en el Ejemplo-04, realizar las sig. conversiones.
+
+```
+let a: Bool = false
+let b: Int = 5
+let c: Float = 93.21
+let d: Double = 3.213213
+let f: String = "3.1416"
+let g: String = "Name"
+```
+
+1.- Convertir de tipo `String` a `Double`.
+
+2.- Convertir de tipo `String` a `Int`.
+
+3.- Convertir de tipo `Float` a `Double`.
+
+4.- Convertir de tipo `Bool` a `Int`.
 
 <details>
+<summary>Solución</summary>
+<p> Convertir de tipo `String` a `Double`.</p>
+        
+	let result2: Double = Double(f)!
+        
+<p> Convertir de tipo `String` a `Int`.</p>
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
+	let res: Int = Int("5")!
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+<p> Convertir de tipo `Float` a `Double `.</p>
+
+	let r: Double = Double(c)
+
+<p> Convertir de tipo `Bool` a `Int`.</p>
+
+	let r: Int = Int(a) // Error!
+
+</details>
 
