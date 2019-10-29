@@ -1,27 +1,81 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+`Desarrollo Mobile` > `Swift Fundamentals`
 
-## Titulo del Ejemplo
+
+## While Loop
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Aprender el correcto uso del cíclo While.
 
+ 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Playgrounds. Buena comprensión de la Sesión 6 y del cíclo FOR.
+
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+WHILE-LOOP
 
-<details>
+```
+while condition {
+   statement(s)
+}
+```
 
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+1.- Con base a los ejercicios de FOR-LOOP.
+Crear un WHILE-Loop que muestre los números del 0 al 10 mediante el uso de un `print()`.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+```
+var i = 0
+while i <= 10 {
+  print(i)
+  i += 1
+}
+```
+
+2.- Crear un WHILE-Loop que muestre los números del 0 al 9 mediante el uso de un `print()`. 
+
+```
+var i = 0
+while i < 10 {
+  print(i)
+  i += 1
+}
+```
+
+3.- INCREMENTOS. Crear un ciclo while que permita incrementar una variable de uno en uno hasta que llegue a 20.
+
+```
+var i = 10
+while i <= 20 {
+  print(i)
+  i += 1
+}
+```
+
+
+4.- INCREMENTOS. Declarar una variable entera con valor inicial de 0. Mediante un WHILE-Loop incrementar esta variable de 1 en 1 hasta llegar a 50.
+
+```
+var i = 0
+while i <= 50 {
+  print(i)
+  i += 1
+}
+```
+
+5.- Crear un ciclo WHILE infinito. NOTA: Terminar la ejecución cerrando el playground.
+
+```
+while true {
+  print("al infinito")
+}
+```
+
+
+
+
 
 

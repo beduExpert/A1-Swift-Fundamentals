@@ -6,7 +6,7 @@
 
 ### OBJETIVO
 
-- Aprender que es un cíclo, un cíclo infinito y el uso de los cíclos For.
+- Aprender que es un cíclo y el uso del cíclo For.
 
 #### REQUISITOS
 

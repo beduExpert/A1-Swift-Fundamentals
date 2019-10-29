@@ -3,7 +3,7 @@
 `Desarrollo Mobile` > `Swift Fundamentals`
 
 	
-## Práctica con For.
+## Práctica con For
 
 ### OBJETIVO 
 

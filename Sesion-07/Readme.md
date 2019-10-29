@@ -6,7 +6,7 @@
 
 ### OBJETIVOS 
 
-- Lo que esperamos que el alumno aprenda al finalizar la sesion 
+- Aprender el concepto de cíclo y el uso de las diferentes estructuras de control de flujo como FOR, WHILE, REPEAT-WHILE.
 
 #### ORGANIZACION DE LA CLASE 
 
