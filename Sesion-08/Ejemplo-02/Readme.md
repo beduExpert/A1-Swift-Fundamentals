@@ -1,27 +1,44 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+`Desarrollo Mobile` > `Swift Fundamentals`
+
 
 ## Titulo del Ejemplo
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Aumentar la App , esta vez agregando mas elementos de UI y ViewControllers.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Basarse en el *Ejemplo-01*.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+1.- Abrir el proyecto del *Ejemplo-01*.
 
-<details>
+2.- En la vista Principal agregar un view de imagen y agregar un icono.
 
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+![](1.png)
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+3.- Agregar un *Viewcontroller*, esta vez para la tercera vista.
 
+![](2.png)
 
+4.- A la tercera vista, asignarle el **ViewController.swift** creado y agregar un Boton de Logout y conectarlo con su IBAction.
+
+![](3.png)
+
+5.- Agregaremos funcionalidad para ocultar el teclado al tocar en alguna parte de la pantalla.
+
+Para ello crearemos un `Extension` del `UIViewController`.
+
+En nuestro `ViewController.swift` escribimos:
+
+```
+extension UIViewController {
+  // Oculta teclado al tocar en la pantalla
+  override open func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    self.view.endEditing(true)
+  }
+}
+```
