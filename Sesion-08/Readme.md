@@ -11,22 +11,17 @@
 
 - Conectando Storyboards con el editor de código.
 
-	- [Ejemplo 01](Ejemplo-01)
+	- [Ejemplo, Esqueleto de una App.](Ejemplo-01)
 	- [Reto 01](Reto-01)
 
 - Generalidades de IBOutlets y IBActions.
 
-	- [Ejemplo 01](Ejemplo-01)
+	- [Ejemplo. Agregando elementos y acciones.](Ejemplo-01)
 	- [Reto 01](Reto-01)
 
 - Arquitectura MVC.
 
-	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
-
-- Práctica: Una calculadora con operaciones básicas.
-
-	- [Ejemplo 01](Ejemplo-01)
+	- [Ejemplo. Agregado arquitectura MVC a tu App.](Ejemplo-01)
 	- [Reto 01](Reto-01)
 
 - Ejecución de App en multiples simuladores, ajustar constraints.
@@ -35,11 +30,6 @@
 	- [Reto 01](Reto-01)
 
 - Utilizando el Debugger, breakpoints.
-
-	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
-
-- Agregando operaciones trigonométricas (sin, cos, tan, división entre cero).
 
 	- [Ejemplo 01](Ejemplo-01)
 	- [Reto 01](Reto-01)

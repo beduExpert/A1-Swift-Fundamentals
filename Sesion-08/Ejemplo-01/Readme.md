@@ -1,27 +1,50 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+`Desarrollo Mobile` > `Swift Fundamentals`
 
-## Titulo del Ejemplo
+## Esqueleto de una App
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Conforme lo aprendido en todo el curso, crear un esqueleto de App.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Xcode 11.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+1.- Crear un proyecto nuevo en Xcode.
 
-<details>
+2.- Este nuevo proyecto tendrá dos vistas, una de Login y una de Registro de Usuario.
+Abrir el Storyboard y agregar dos ViewControllers.
 
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+![](1.png)
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+
+3.- Configurar la vista de Login.
+
+![](2.png)
+
+4.- Configura la vista de Registro de cuenta y conectala con el botón de `Registro` mediante un `Push`.
+
+![](3.png)
+
+Ejecutar y debe funcionar asi:
+
+![](4.gif)
+
+5.- Ahora es momento de crear dos `ViewControllers` pero con extensión `.swift`. Aquí escribiremos nuestro código.
+
+Agregar un `AccountRegisterViewController.swift`, y lo asociamos al ViewController del Storyboard de registro de cuenta.
+
+![](5.png)
+
+![](6.png)
+
+6.- Conectamos cada elemento de UI con su respectivo ViewController.
+
+![](7.png)
+
+![](8.png)
 
 
