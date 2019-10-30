@@ -1,27 +1,30 @@
  
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+`Desarrollo Mobile` > `Swift Fundamentals`
+
+## Agregar función de Dismiss
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+- Agregar función de dismiss view desde un botón.
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. Xcode y Ejemplo-01 funcionando.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+1.- Abrir el Ejemplo-01 y abrir el ViewController correspondiente al registro.
+
+2.- Agregar en el Boton de `Registrar` la acción de `dismiss view`.
+
 
 <details>
+        <summary>Solución</summary>
+<p> Funcion dismiss: </p>
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
+	@IBAction func register(_ sender: Any) {
+    	dismiss(animated: true, completion: nil)
+	}
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
+</details>
