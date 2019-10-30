@@ -23,10 +23,14 @@ Asegurate de tener instalado el simulador de iOS.
  - Simulador y sus limitaciones.
 
  	- [Ejemplo 01](Ejemplo-01)
+
+ - Jugando en los Playgrounds.
+
+ 	- [Ejemplo 02](Ejemplo-02)
   
  - Herramientas disponibles siendo un desarrollador de Apple.
 
  
- ### Postwork
+### Postwork
 
 - [Simulador y Terminal](Postwork)
