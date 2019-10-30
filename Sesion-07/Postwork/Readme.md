@@ -1,64 +1,64 @@
- 
 
 `Desarrollo Mobile` > `Swift Fundamentals`
 
-	
-## Reto de la piramide
 
-### OBJETIVO 
+## App login mejorada
 
-- Con lo aprendido de ciclos, se deberia poder implementar el sig. algoritmo. 
+### OBJETIVO
 
-#### REQUISITOS 
+- Implementar ciclos en la App de Login previamente realizada.
 
-1. Comprensión de los Ciclos vistos en esta undidad, FOR, WHILE, REPEAT-WHILE.
+#### REQUISITOS
 
+1. Xcode.
+2. Basarse en el Ejemplo de App login.
 
 #### DESARROLLO
 
-1.- Crear un código que tenga ciclos anidados que permita crear el siguiente patrón o alguno similar.
+1.- Registrar almenos 5 nombres de usuario y password como arrays.
 
 ```
-    *
-   ***
-  *****
- *******
-*********
+  var users = ["User1", "User2", "User3", "User4", "User5"]
+  var passwords = ["Pass1", "Pass2", "Pass3", "Pass4", "Pass5"]
 ```
+
+2.- El usuario y password ingresados en pantalla deberan ser buscados en cada array mediante cíclos. Si se encuentra el usuario, mostrar un mensaje en verde y si no un mensaje en rojo de usuasrio no encontrado.
 
 
 <details>
         <summary>Solución</summary>
-<p>  Declarar el número de filas de la pirámida, rows = 6. </p>
-<p>  una variable que almacenara la cadena, note que es un espacio en blanco y un o varios asteriscos en cada caso. </p>
-<p> Se debe crear un cíclo para espacios y un cíclo para agregar asteriscos. </p>
+        
 
-<p>  En cada iteración se debe resetear los valores del contador K y del valor de la cadena de salida </p>
+	var users = ["User1", "User2", "User3", "User4", "User5"]
+	var passwords = ["Pass1", "Pass2", "Pass3", "Pass4", "Pass5"]
+  
+	let userText = userTextField.text
+	let passText = passwordTextField.text
+  
+	errorLabel.isHidden = false
+    
+	var userFound: Bool = false
+	var passFound: Bool = false
 
-<p>  El código es el siguiente: </p>
+    for user in users {
+      if user == userText {
+        userFound = true
+      }
+    }
+    for pass in passwords {
+      if pass == passText {
+        passFound = true
+      }
+    }
 
-```
-var k = 0
-var rows = 6
-var asterics = ""
-
-for i in 1..<rows {
-  for _ in 1..<rows - i {
-    asterics.append(" ")
-  }
-  while (k != 2 * i - 1) {
-    asterics.append("*")
-    k += 1
-  }
-  print(asterics)
-  //reset values
-  k = 0
-  asterics = ""
-}
-```
-
+    if userFound && passFound {
+      errorLabel.text = "Usuario encontrado"
+      errorLabel.textColor = UIColor.green
+    } else {
+      errorLabel.text = "Usuario no encontrado"
+      errorLabel.textColor = UIColor.red
+    }
+  
 </details>
-
-
 
 
