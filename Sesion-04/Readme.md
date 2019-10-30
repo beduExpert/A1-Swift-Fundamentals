@@ -34,13 +34,10 @@ Antes de comenzar es prudente acercarse a una lectura previa de los temas que se
 
 - [Ejemplo, Jerarquía de Operaciones](Ejemplo-01)
 
-- [Ejemplo, Operaciones matemáticas](Ejemplo-02)
+- [Ejemplo, Operaciones Matemáticas](Ejemplo-02)
 
-- [Reto, Operaciones](Reto-01)
+- [Ejemplo, Colores en Apps](Ejemplo-03)
 
 #### Postwork
 
-¿Terminaste los temas?, consulta la documentación oficial:
-
-[Swift The Basics](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
-
+- [Simulador y Terminal](Postwork)
