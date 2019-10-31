@@ -1,27 +1,22 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+`Desarrollo Mobile` > `Swift Fundamentals`
 
-## Titulo del Ejemplo
+## Guardar usuario
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Al finalizar la clase, el alumno deberá implementar en la App la función de Guardar Usuario. Ademas de agregar funcionalidad a Logout.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Ejemplo-05 terminado.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+1.- En el Viewcontroller de login agregar una opción de guardar usuario. Puede ser con uso de un UISwitch.
 
-<details>
+2.- Este usuario deberá permanecer escrito en el campo de texto de la vista de login.
 
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+3.- Al salir de la app y volver a ejecutarla debería aparecer el nombre del usuario.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
-
+4.- La funcion de Logout debe borrar el nombre del Usuario del campo de texto. Al salir de la app tambien debería desaparecer dicho nombre de usuario.
