@@ -26,15 +26,13 @@
 
 -  Arquitectura MVC.
 
-	- [Ejemplo](Ejemplo-04)
-
-- Ejecución de App en multiples simuladores, ajustar constraints.
-
 	- [Ejemplo 04](Ejemplo-04)
 
-- Utilizando el Debugger, breakpoints.
+- Constraints y múltiples simuladores.
 
 	- [Ejemplo 05](Ejemplo-05)
+
+- Utilizando el Debugger, breakpoints.
 
 ### Postwork
 
