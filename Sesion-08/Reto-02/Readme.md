@@ -1,27 +1,56 @@
  
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
+`Desarrollo Mobile` > `Swift Fundamentals`
 	
-## Titulo del Ejemplo 
+## Cambiar imágen de Profile 
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+- Con lo aprendido en las sesiones, el alumno debería poder cambiar la imágen de profile del Login.
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. Utilizar ejemplo-02.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+![](0.png)
+
+1.- Agregar tu foto de perfil
+
+2.- Agregar tu usuario en el código.
+
+3.- Si el usuario tecleado coincide con el registrado cambiar foto de perfil.
 
 <details>
+        <summary>Solución</summary>
+<p> Abrirl ViewController.swift </p>
+<p> Agregar la variable de tu nombre de usuario </p>
+<p> Crear algoritmo de cambio de imagen. </p>
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
+```
+class ViewController: UIViewController {
+  
+  @IBOutlet weak var user: UITextField!
+  @IBOutlet weak var password: UITextField!
+  @IBOutlet weak var imageView: UIImageView!
+  
+  let myUser = "Ricardo"
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+  }
+  
+  @IBAction func login(_ sender: Any) {
+    //login success action
+    if myUser == user.text {
+      imageView.image = UIImage(named: "profile")
+    } else {
+       imageView.image = UIImage(named: "user1")
+    }
+  }
+}
+```
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
 
+</details>
