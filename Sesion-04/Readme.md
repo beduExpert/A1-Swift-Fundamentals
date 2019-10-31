@@ -40,4 +40,4 @@ Antes de comenzar es prudente acercarse a una lectura previa de los temas que se
 
 #### Postwork
 
-- [Simulador y Terminal](Postwork)
+- [App de calculadora](Postwork)

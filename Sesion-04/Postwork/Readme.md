@@ -1,58 +1,27 @@
 
 `Desarrollo Mobile` > `Swift Fundamentals`
 
-
-## Simulador y Terminal
+## Calculadora simple en Swift
 
 ### OBJETIVO
 
-- Aprender el uso del Simulador y la Terminal en Mac OS.
+- Con lo aprendido hasta el momento, crear una calculadora utilizando UILabel, UIButton y UITextField.
 
 #### REQUISITOS
 
-1. Xcode, iOS Simulator y Terminal.
+1. Basarse en el proyecto `Calculator-Starter`.
 
 #### DESARROLLO
 
-Abrir la Terminal de macOS y realizar lo siguiente.
+1.- Crear un layout de calculadora parecido a este:
 
-1.- Mostrar todos los simuladores creados.
+![](1.gif)
 
-2.- Ejecutar simulador desde la terminal.
+2.- Se deberán de poder hacer cálculos ingresando dos números.
 
-3.- Grabar video del simulador.
+3.- Las operaciones esperadas son suma, resta, multiplicación y división.
 
-4.- Tomar screenshot del simulador.
+4.- El resultado final debe mostrarse en un Label.
 
-5.- Abrir una URL del simulador.
-
-6.- Mostrar todos los comandos disponibles del simulador en la terminal.
-
-
-<details>
-        <summary>Solución</summary>
-        1.- Mostrar todos los simuladores creados.
-
-2.- Ejecutar simulador desde la terminal.
-
-open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/
-
-3.- Grabar video del simulador.
-
-xcrun simctl io booted recordVideo — type=mp4 ./test.mp4
-
-4.- Tomar screenshot del simulador.
-
-xcrun simctl io booted screenshot ./screen.png
-
-5.- Abrir una URL del simulador.
-
-xcrun simctl openurl booted https://google.com
-
-6.- Mostrar todos los comandos disponibles del simulador en la terminal.
-
-xcrun simctl help
-
-</details>
-
+5.- En caso de dividir entre 0, mostrar msj. de error en el Label.
 
