@@ -1,27 +1,23 @@
 
 `Desarrollo Mobile` > `Swift Fundamentals`
 
-## Calculadora simple en Swift
+## Una app simple de incrementos y decrementos
 
 ### OBJETIVO
 
-- Con lo aprendido hasta el momento, crear una calculadora utilizando UILabel, UIButton y UITextField.
+- De acuerdo a lo aprendido anteriormente, crear una app con dos botones y un label que permita crear incrementos y decrementos.
 
 #### REQUISITOS
 
-1. Basarse en el proyecto `Calculator-Starter`.
+1. Xcode instalado. Comprender los conceptos de Incrementos y Decrementos. Haber concluido el Ejemplo-02 y Reto-02.
 
 #### DESARROLLO
 
-1.- Crear un layout de calculadora parecido a este:
+1.- Crear un proyecto en Xcode con un Layout parecido a este:
+
+![](0.png)
+
+2.- Cada botón deberá incrementar/decrementar un contador y además cambiar el tamaño de la letra.
 
 ![](1.gif)
-
-2.- Se deberán de poder hacer cálculos ingresando dos números.
-
-3.- Las operaciones esperadas son suma, resta, multiplicación y división.
-
-4.- El resultado final debe mostrarse en un Label.
-
-5.- En caso de dividir entre 0, mostrar msj. de error en el Label.
 

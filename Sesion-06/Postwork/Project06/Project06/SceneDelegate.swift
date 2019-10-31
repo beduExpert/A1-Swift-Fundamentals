@@ -1,7 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Calculator-Starter
+//  Project06
 //
+//  Created by Richie on 30/10/19.
 //  Copyright © 2019 Bedu. All rights reserved.
 //
 
