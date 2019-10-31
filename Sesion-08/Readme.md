@@ -19,10 +19,14 @@
 	- [Ejemplo. Agregando elementos y acciones.](Ejemplo-02)
 	- [Reto 02](Reto-02)
 
-- Arquitectura MVC.
+-  Navegación de vistas.
 
-	- [Ejemplo. Agregado arquitectura MVC a tu App.](Ejemplo-03)
+	- [Ejemplo. Navegación de vistas](Ejemplo-03)
 	- [Reto 03](Reto-03)
+
+-  Arquitectura MVC.
+
+	- [Ejemplo](Ejemplo-04)
 
 - Ejecución de App en multiples simuladores, ajustar constraints.
 

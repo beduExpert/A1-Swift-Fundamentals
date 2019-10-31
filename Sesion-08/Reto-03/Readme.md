@@ -1,27 +1,35 @@
- 
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+`Desarrollo Mobile` > `Swift Fundamentals`
 
-### OBJETIVO 
+## Editando la Navegación de vistas
 
-- Lo que esperamos que el alumno aprenda 
+### OBJETIVO
 
-#### REQUISITOS 
+- Personalizar la barra de navegación en la app.
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+#### REQUISITOS
+
+1. Utilizar de base Ejemplo-03.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+1.- Con base en el proyecto del Ejemplo-03, editar el color de la barra de navegación.
+
+![](0.png)
+
+2.- Recrear la siguiente configuración:
+
+![](1.png)
 
 <details>
+        <summary>Solución</summary>
+<p>  Dentro de <strong>ViewController.swift</strong>, buscar la función <strong>viewDidLoad()</strong>, dentro de esta agregár el sig. código: </p>
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
+```
+self.navigationController!.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+self.navigationController?.navigationBar.shadowImage = UIImage()
+self.navigationController?.navigationBar.isTranslucent = true
+self.navigationController!.view.backgroundColor = UIColor.clear
+self.navigationController?.navigationBar.backgroundColor = UIColor.clear
+```
+</details>
