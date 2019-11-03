@@ -1,6 +1,6 @@
 `Desarrollo Mobile` > `Swift Fundamentals`
 
-## Aumenta tu Primera App 
+## Personaliza tu Primera App 
 
 ### OBJETIVO 
 
