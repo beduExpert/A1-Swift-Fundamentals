@@ -6,7 +6,7 @@
 
 ### OBJETIVOS 
 
-- Aprender el concepto de cíclo y el uso de las diferentes estructuras de control de flujo como FOR, WHILE, REPEAT-WHILE.
+- Aprender el concepto de ciclo y el uso de las diferentes estructuras de control de flujo como FOR, WHILE, REPEAT-WHILE.
 
 #### ORGANIZACION DE LA CLASE 
 
