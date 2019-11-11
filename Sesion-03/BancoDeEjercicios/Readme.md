@@ -1,7 +1,7 @@
 
 `Desarrollo Mobile` > `Swift Fundamentals`
 
-## Postwork: Personalización de UIObjects
+## BancoDeEjercicios: Personalización de UIObjects
 
 ### OBJETIVO
 

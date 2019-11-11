@@ -2,7 +2,7 @@
 `Desarrollo Mobile` > `Swift Fundamentals`
 
 
-## Postwork
+## BancoDeEjercicios
 
 Cambiar el nombre de la app, las orientaciones soportadas por la pantalla, explorar las demás opciones dentro de esa pantalla. En el archivo .plist investigar para que es Bundle Version, Bundle Identifier y Bundle Name.
 
@@ -28,7 +28,7 @@ Cambiar el nombre de la app, las orientaciones soportadas por la pantalla, explo
         <p> Dentro del .plist, agregar un nombre en Bundle Name </p>
 </details>
 
-Para desarrollar este Postwork, veamos las siguientes imágenes.
+Para desarrollar este BancoDeEjercicios, veamos las siguientes imágenes.
 
 ![imagen](1.png)
 ![imagen](2.png)
