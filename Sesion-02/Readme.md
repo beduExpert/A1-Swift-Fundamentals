@@ -31,6 +31,6 @@ Asegurate de tener instalado el simulador de iOS.
  - Herramientas disponibles siendo un desarrollador de Apple.
 
  
-### Postwork
+### BancoDeEjercicios
 
-- [Simulador y Terminal](Postwork)
+- [Simulador y Terminal](BancoDeEjercicios)

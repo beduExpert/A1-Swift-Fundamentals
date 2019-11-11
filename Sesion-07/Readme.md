@@ -26,8 +26,8 @@ For, While, Repeat-while.
 	- [Reto 04](Reto-04)
 	- [App Login Básica](Ejemplo-05)
 
-### Postwork
+### BancoDeEjercicios
 
-- [App Login Mejorada](Postwork)
+- [App Login Mejorada](BancoDeEjercicios)
 
-- [Reto de la Pirámide](PostworkPiramide)
+- [Reto de la Pirámide](BancoDeEjerciciosPiramide)

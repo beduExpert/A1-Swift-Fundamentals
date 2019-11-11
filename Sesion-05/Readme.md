@@ -42,9 +42,9 @@
 	- [Ejemplo 06](Ejemplo-06)
 	- [Reto 06](Reto-06)
 
-### Postwork:
+### BancoDeEjercicios:
 
-- [App Mapas con ruta](Postwork)
+- [App Mapas con ruta](BancoDeEjercicios)
 
 Consultar con los sig. playgrounds, estudiar la implementación del código mostrado:
 

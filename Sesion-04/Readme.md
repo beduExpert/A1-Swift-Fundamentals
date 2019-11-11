@@ -38,6 +38,6 @@ Antes de comenzar es prudente acercarse a una lectura previa de los temas que se
 
 - [Ejemplo, Colores en Apps](Ejemplo-03)
 
-#### Postwork
+#### BancoDeEjercicios
 
-- [App de calculadora](Postwork)
+- [App de calculadora](BancoDeEjercicios)

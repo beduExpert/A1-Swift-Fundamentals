@@ -38,6 +38,6 @@
 	- [Reto 05](Reto-05)
 
 
-### Postwork
+### BancoDeEjercicios
 
-- [App de incremento y decremento](Postwork)
+- [App de incremento y decremento](BancoDeEjercicios)
